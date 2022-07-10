@@ -1,22 +1,8 @@
 section#product {
     padding: 120px 0;
 }
-#product h1 {
-    position: relative;
+#product.header-area {
     text-align: center;
-    width: 100%;
-    font-size: 4vw;
-    color: #020b8a;
-}
-#product h1:after {
-    content: '';
-    position: absolute;
-    width: 2vw;
-    height: 1px;
-    background-color: #020b8a;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
 }
 #product .image-frame {
     position: relative;

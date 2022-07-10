@@ -1,7 +1,15 @@
 #aboutus .header-bg {
     background-image: url('/images/bg/header-bg-2-dark.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: bottom center;
+}
+
+#aboutus section {
+    padding: 30px 0;
+}
+#aboutus .header-area {
+    padding: 30vh 0 10vh;
+    border-bottom: none;
 }
 
 #aboutus .heading-content h1,
@@ -10,8 +18,59 @@
     text-align: center;
 }
 #aboutus .heading-content h1 {
-    font-size: 6vw;
+    font-size: 8vmin;
 }
 #aboutus .heading-content p {
+    font-size: 3vmin;
+}
+#aboutus .heading-content span {
+    width: 80%;
+    margin: 0 auto 35px;
+    filter: invert(0%);
+}
+@media only screen and (max-width: 575px) {
+    #aboutus .heading-content h1 {
+        font-size: 12vw;
+    }
+    #aboutus .heading-content p {
+        font-size: 3.9vw;
+    }
+}
+/* ============== about-us-area ============== */
+#aboutus .about-us-area p {
+    width: 80%;
+    margin: 0 auto 35px;
+}
 
+/* ============== team ============== */
+#aboutus .team .content p {
+    width: 80%;
+    margin: 0 auto 35px;
+}
+#aboutus .team .img-fluid {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#aboutus .team .img-fluid.male-1 {
+    background-image: url('/images/avatars/male-1.webp')
+}
+#aboutus .team .img-fluid.male-2 {
+    background-image: url('/images/avatars/male-2.png')
+}
+#aboutus .team .img-fluid.male-3 {
+    background-image: url('/images/avatars/male-3.png')
+}
+#aboutus .team .img-fluid.male-4 {
+    background-image: url('/images/avatars/male-4.jpeg')
+}
+#aboutus .team .img-fluid.male-5 {
+    background-image: url('/images/avatars/male-5.png')
+}
+#aboutus .team .img-fluid.female-1 {
+    background-image: url('/images/avatars/female-1.png')
 }

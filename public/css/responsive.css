@@ -145,10 +145,6 @@
         color: #fff;
     }
 
-    .navbar-area {
-        padding: 20px;
-    }
-
     .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show,
     .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
         border: none;
@@ -486,10 +482,6 @@
 
     .navbar-light .navbar-toggler {
         background-color: #fff;
-    }
-
-    .navbar-area {
-        padding: 20px;
     }
 
     .navbar-area .navbar-collapse {

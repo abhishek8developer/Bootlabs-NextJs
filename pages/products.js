@@ -5,8 +5,8 @@ export default function Product() {
   return (
     <>
       <Header />
-      <section class="header-area header-bg" id="product">
-        <h1>Sailor</h1>
+      <section className="header-area header-bg" id="product">
+        <h1 className='blue-underline-heading'>Sailor</h1>
         <div className="image-frame">
           <a target="_blank" href="https://console.sailorcloud.io/login" title="Visit Sailor Site">
             <img src="/images/product/sailor-website.png" alt="" />
