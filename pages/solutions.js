@@ -5,6 +5,58 @@ export default function Solutions() {
     return (
         <>
             <Header />
+            <section class="solution-area style-two" id="solutions">
+                <div class="container">
+                    <h1 className="blue-underline-heading">Let us help with your Cloud Journey</h1>
+                    <div class="row">
+                        <ul class="feature-list style-03">
+                            <li class="single-feature-list wow zoomIn">
+                                <img src="/images/icon-1.png" />
+                                <div class="content">
+                                    <h4 class="title">
+                                        <a href="#">Cloud Platform</a>
+                                    </h4>
+                                    <p>
+                                        BootLabs can amplify your team's productivity with efficient, highly resilient, auto-scalable cloud solutions, using cutting-edge cloud platforms. We have deep expertise in modernising the core, which then transforms your business, reduces cost overhead and improves operational agility.
+                                    </p>
+                                </div>
+                                {/* <button type="button" class="boxed-btn btn-rounded">
+                                    <a href="/solutions">Find out more >></a>
+                                </button> */}
+                            </li>
+                            <li class="single-feature-list wow zoomIn">
+                                <img src="/images/icon-2.png" />
+                                <div class="content">
+                                    <h4 class="title">
+                                        <a href="#">Cloud Security</a>
+                                    </h4>
+                                    <p>
+                                    How to be secure while moving workloads to cloud? Modernising infrastructure, data and applications does not mean less secure. Implementing security policies, vulnerability checks and securing cloud infrastructure are implicit. Continuous security monitoring, fixing leaks, adhering to compliance and governance are our DNA.
+                                    </p>
+                                </div>
+                                {/* <button type="button" class="boxed-btn btn-rounded">
+                                    <a href="/solutions">Find out more >></a>
+                                </button> */}
+                            </li>
+                            <li class="single-feature-list wow zoomIn">
+                                <img src="/images/icon-3.png" />
+                                <div class="content">
+                                    <h4 class="title">
+                                        <a href="#">Cloud Operate</a>
+                                    </h4>
+                                    <p>
+                                    Modern organisations look for agility, speed and nimbleness as they embrace open source technology. We don't always want to know the underlying complexities. The abstraction can be achieved using automated infrastructure provisioning via IaaC (Infrastructure as a Code) and CaaS (Container as a Service). This reduces manual errors & improves speed to market.
+                                    </p>
+                                </div>
+                                {/* <button type="button" class="boxed-btn btn-rounded">
+                                    <a href="/about">Find out more >></a>
+                                </button> */}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
             {/* <header className="header-area header-bg" id="home">
                 <div className="shape-1">
                     <img src="/images/shape/01.png" alt="" />
@@ -73,7 +125,7 @@ export default function Solutions() {
                     <h4 className="title-service"># Let us help you to<br />Build a Cloud Strategy</h4>
                 </div>
             </header> */}
-            <section className="solution-area">
+            {/* <section className="solution-area">
                 <div className="container">
                     <div className="solution-list">
                         <head>Cloud Migration<br />_______</head>
@@ -148,7 +200,7 @@ export default function Solutions() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <Footer />
         </>
     )

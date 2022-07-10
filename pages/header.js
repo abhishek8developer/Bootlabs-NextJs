@@ -39,6 +39,7 @@ export default function Header() {
         <link rel="stylesheet" href="/css/magnific-popup.css" />
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/responsive.css" />
+
       </Head>
       <nav className="navbar navbar-area navbar-expand-lg nav-absolute white nav-style-01">
         <div className="container nav-container">

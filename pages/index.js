@@ -33,7 +33,7 @@ export default function Home() {
                   </p>
                   <div class="btn-wrapper wow fadeInUp">
                     {/* <!--   <a href="#about" class="boxed-btn btn-rounded">About Us</a>
-                              <a href="" class="boxed-btn btn-rounded blank">Learn More</a> --> */}
+                      <a href="" class="boxed-btn btn-rounded blank">Learn More</a> --> */}
                   </div>
                 </div>
               </div>
@@ -42,9 +42,7 @@ export default function Home() {
         </header>
         <section class="about-us-area style-two" id="about">
           <div class="container">
-            <div class="cp">
-              <h2>Let us help with your Cloud Journey</h2>
-            </div>
+            <h1 className="blue-underline-heading">Let us help with your Cloud Journey</h1>
             <div class="row">
               <ul class="feature-list style-03">
                 <li class="single-feature-list wow zoomIn">

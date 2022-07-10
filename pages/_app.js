@@ -6,6 +6,7 @@ import '../styles/footer.css'
 import '../styles/header.css'
 import '../styles/home.css'
 import '../styles/policies.css'
+import '../styles/solutions.css'
 
 export default function App(props) {
     const { Component, pageProps, err, router } = props

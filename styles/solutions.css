@@ -1,0 +1,31 @@
+#solutions.solution-area {
+    padding: 25vh 0;
+    text-align: center;
+}
+
+#solutions .feature-list li.single-feature-list .content {
+    min-height: 350px;
+}
+
+#solutions .feature-list li.single-feature-list .content p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+    #solutions .feature-list li.single-feature-list .content {
+        min-height: 400px;
+    }
+}
+@media screen and (max-width: 992px) {
+    #solutions .feature-list li.single-feature-list {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #solutions .feature-list li.single-feature-list {
+        width: 90%;
+    }
+    #solutions .feature-list li.single-feature-list .content {
+        min-height: 200px;
+    }
+}
