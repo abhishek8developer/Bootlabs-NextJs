@@ -1,0 +1,34 @@
+.policies {
+}
+
+.policies ol,
+.policies ul {
+    margin: 12px 0 28px;
+    padding-left: 40px;
+}
+
+.policies p {
+    margin-bottom: 8px;
+}
+
+.policies p,
+.policies li {
+    color: #727272;
+}
+@media screen and (max-width: 575px) {
+    .policies p,
+    .policies li {
+        text-align: justify;
+    }
+    .policies ol,
+    .policies ul {
+        padding: 0 2vw 0 4vw;
+    }
+}
+
+.policies h4 {
+    margin: 32px 0 16px;
+}
+.policies h6 {
+    margin: 24px 0 12px;
+}

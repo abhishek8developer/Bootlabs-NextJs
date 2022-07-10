@@ -1,0 +1,86 @@
+#contactus .Form-header-inner h1 {
+    font-size: 3vw;
+    line-height: 6vw;
+    margin-bottom: 6vw;
+}
+#contactus .Form-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactus form {
+    background: #f4f7fd;
+    width: 100%;
+    display: flex;
+    padding: 2vw 4vw;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+#contactus form h1 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#contactus form input,
+#contactus form textarea {
+    width: 100%;
+    min-width: 200px;
+    border: 0;
+    margin: 10px;
+    padding: 20px;
+    outline: none;
+    border-radius: 13px;
+    background: #ffffff;
+    font-size: 16px;
+}
+
+#contactus form button {
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    width: 250px;
+    border: 0;
+    cursor: pointer;
+    margin: 20px auto;
+    outline: none;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+#contactus .form-group {
+    display: flex;
+    margin: 0;
+}
+@media screen and (max-width: 768px) {
+    #contactus .form-group {
+        flex-wrap: wrap;
+    }   
+}
+@media screen and (max-width: 575px) {
+    #contactus .Form-header-inner h1 {
+        font-size: 6vw;
+        line-height: 8vw;
+        margin-bottom: 8vw;
+    }
+    #contactus form input,
+    #contactus form textarea {
+        margin: 8px;
+        padding: 15px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    #contactus form button {
+        width: 250px;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 25px;
+    }
+}

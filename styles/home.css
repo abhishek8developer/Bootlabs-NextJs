@@ -1,0 +1,180 @@
+.root {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+#home.header-area.header-bg {
+    min-height: 70vh;
+    padding: 25vh 0 0 0;
+}
+
+#home.header-area.header-bg .header-right-image {
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    width: 35vw;
+}
+
+#home.header-area .header-right-image img {
+    height: 100%;
+    width: auto;
+}
+
+.feature-list.style-03 {
+    justify-content: space-between;
+}
+
+.feature-list.style-03 li {
+    width: 32%;
+}
+
+.feature-list.style-03 li .content h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.feature-list.style-03 li .content p {
+    text-align: center;
+    min-height: 150px;
+}
+
+.how-it-work-tab-nav {
+    margin-bottom: 40px;
+}
+
+.how-it-work-tab-nav .nav-tabs {
+    border: none;
+    display: block;
+    text-align: center;
+    font-size: 0;
+    margin-top: 18px;
+}
+
+.how-it-work-tab-nav .nav-tabs .nav-item {
+    display: inline-block;
+    border-right: 1px solid #b1aeb6;
+}
+
+.how-it-work-tab-nav .nav-tabs .nav-item:last-child {
+    border-right: none;
+}
+
+.how-it-work-tab-nav .nav-tabs .nav-item .nav-link {
+    border: none;
+    height: 70px;
+    line-height: 60px;
+    padding: 0 30px;
+    color: #1c144e;
+    background-color: #f6f2fd;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+.how-it-work-tab-nav .nav-tabs .nav-item .nav-link .number {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient(50deg, #e877cb 0%, #a197fa 100%);
+    background-image: -moz-linear-gradient(50deg, #e877cb 0%, #a197fa 100%);
+    background-image: -webkit-linear-gradient(50deg, #e877cb 0%, #a197fa 100%);
+    background-image: -ms-linear-gradient(50deg, #e877cb 0%, #a197fa 100%);
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    color: #500ade;
+}
+
+.how-it-work-tab-nav .nav-tabs .nav-item .nav-link.active {
+    color: #fff;
+    background-image: linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    background-image: -moz-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    background-image: -webkit-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    background-image: -ms-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+}
+
+.how-it-work-tab-nav .nav-tabs .nav-item .nav-link.active i {
+    color: #fff;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+    .header-area .header-right-image {
+        right: 0%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-area .header-right-image {
+        right: -15%;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    .header-area .header-right-image {
+        display: none;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-area .header-right-image {
+        display: none;
+    }
+
+    .feature-list.style-03 {
+        justify-content: center;
+    }
+
+    .feature-list.style-03 li {
+        width: 95%;
+    }
+
+    .feature-list.style-03 li .content p {
+        min-height: 100px;
+    }
+
+    .how-it-work-tab-nav .nav-tabs .nav-item {
+        border-right: none;
+        width: 33.33%;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .about-us-area.style-two .feature-list .single-feature-list {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    .how-it-work-tab-nav {
+        margin: 40px -15px;
+    }    
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,239 @@
+.title-service {
+  text-align: center;
+  padding-top: 150pt;
+  font-weight: 250;
+  font-size: 45;
+  color: rgb(46, 10, 146);
+}
+
+.solution-list-devops {
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: 700;
+  line-height: 45px;
+  color: #283659;
+  width: 462px;
+  height: 120px;
+  left: 680px;
+  top: 730px;
+}
+
+.solution-list {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #283659;
+    padding-top: 120;
+  
+  }
+  .solution-list-cloud {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #283659;
+    top: 240%;
+  }
+  .solution-content {
+    font-weight: 300;
+    position: absolute;
+    font-size: 38px;
+    color: #000000;
+    padding-top: 200pt;
+    width: 470px;
+    line-height: 30pt;
+  }
+  .solution-content-devops {
+    font-weight: 300;
+    position: absolute;
+    font-size: 38px;
+    color: #000000;
+    padding-top: 200pt;
+    width: 470px;
+    line-height: 20pt;
+    height: 120px;
+    left: 680px;
+    top: 590px;
+  }
+  .solution-content-govern {
+    font-weight: 300;
+    position: absolute;
+    font-size: 38px;
+    color: #000000;
+    padding-top: 200pt;
+    width: 470px;
+    line-height: 20pt;
+    height: 120px;
+    left: 680px;
+    top: 1400pt;
+  }
+  .solution-content-devops img {
+    image-rendering: auto;
+    position: absolute;
+  }
+  .solution-content-devops li {
+    font-size: 20px;
+  }
+  .solution-content p {
+    font-weight: 100;
+    position: relative;
+    font-size: 20px;
+    color: #000000;
+    padding-top: 10pt;
+    text-align: justify;
+    width: 450px;
+    line-height: 28px;
+  }
+  .solution-content img {
+    image-rendering: auto;
+    position: absolute;
+    right: 0;
+    left: 130%;
+    top: 30%;
+  }
+  .solution-content-cloud {
+    font-weight: 300;
+    position: absolute;
+    color: #000000;
+    padding-top: 200%;
+    width: 470px;
+    line-height: 30pt;
+    
+  }
+  .solution-content-cloud img {
+    top: 70%;
+  }
+  .solution-content-observe {
+    font-weight: 300;
+    position: absolute;
+    color: #000000;
+    padding-top: 450%;
+    width: 470px;
+    line-height: 30pt;
+  }
+  .solution-content-observe img {
+    top: 88%;
+    left: 130%;
+  }
+  .solution-list-govern img {
+    position: absolute;
+    left: 50pt;
+    right: 100pt;
+    top: 100pt;
+
+  }
+  .solution-list-govern {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 45px;
+    color: #283659;
+    width: 462px;
+    height: 120px;
+    left: 680px;
+    top: 1500pt;
+  }
+  .solution-list-observe {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #283659;
+    top: 440%;
+  }
+  .container-product{
+    padding-top: 13rem;
+  }
+  .container-product h1{
+    font-weight: 300;
+    font-size: 110px;
+  }
+  .container-product h3{
+    padding-top: 2rem;
+    font-weight: 300;
+    color: #000000;
+  }
+  .container-product h2{
+    padding-top: 2rem;
+    font-weight: 400;
+    color: #10125c;
+  }
+  .container-product-sailor h3 {
+    color: rgb(17, 88, 88);
+    padding-top: 2rem;
+    font-weight: 200;
+    text-align: center;
+  }
+  .container-product-sailor h1 {
+    color: rgb(8, 41, 41);
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 7rem;
+    text-align: center;
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+  
+  .content {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35rem;
+    padding-top: 5rem;
+
+  }
+  
+  .content h2 {
+    color: #fff;
+    font-size: 8em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .content h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+  }
+  
+  .content h2:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+  }
+  
+  @keyframes animate {
+    0%,
+    100% {
+      clip-path: polygon(
+        0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  
+    50% {
+      clip-path: polygon(
+        0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  }
+  
