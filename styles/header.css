@@ -1,0 +1,34 @@
+.navbar-area.nav-absolute {
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, .5) 140%);
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown:hover .dropbtn {
+    /* background-color: rgb(175, 240, 236); */
+    color: yellow;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .responsive-mobile-menu .logo-wrapper {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-area .responsive-mobile-menu .logo-wrapper,
+    .navbar-area.header-style-12 .responsive-mobile-menu .logo-wrapper,
+    .navbar-area.header-style-09 .responsive-mobile-menu .logo-wrapper {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,17 @@
+#aboutus .header-bg {
+    background-image: url('/images/bg/header-bg-2-dark.jpg');
+    background-size: contain;
+    background-position: bottom center;
+}
+
+#aboutus .heading-content h1,
+#aboutus .heading-content p {
+    color: #fff;
+    text-align: center;
+}
+#aboutus .heading-content h1 {
+    font-size: 6vw;
+}
+#aboutus .heading-content p {
+
+}

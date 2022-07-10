@@ -1,0 +1,55 @@
+section#product {
+    padding: 120px 0;
+}
+#product h1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 4vw;
+    color: #020b8a;
+}
+#product h1:after {
+    content: '';
+    position: absolute;
+    width: 2vw;
+    height: 1px;
+    background-color: #020b8a;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+#product .image-frame {
+    position: relative;
+    background: #fff;
+    background: url('/images/bg/pricing_plan.jpg') center center no-repeat ;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 30px;
+}
+#product .image-frame a {
+    cursor: pointer;
+}
+#product .image-frame .link {
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    right: 55px;
+    bottom: 60px;
+    cursor: pointer;
+    position: absolute;
+    filter: blur(25px);
+    transition: .6s ease;
+}
+#product .image-frame:hover .link {
+    transition: .6s ease;
+    filter: blur(0px);
+    opacity: 1;
+} 
+@media only screen and (max-width: 510px) {
+    #product h1 {
+        font-size: 10vw;
+    }
+    #product h1:after {
+        width: 5vw;
+    }
+}
