@@ -9,7 +9,7 @@ export default function Product() {
         <h1 className='blue-underline-heading'>Sailor</h1>
         <div className="image-frame">
           <a target="_blank" href="https://console.sailorcloud.io/login" title="Visit Sailor Site">
-            <img src="/images/product/sailor-website.png" alt="" />
+            <img src="/images/product/sailor.png" alt="" />
           </a>
           <a target="_blank" href="https://console.sailorcloud.io/login" title="Visit Sailor Site">
             <img className='link' src="/images/execute_color.png" />

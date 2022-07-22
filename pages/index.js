@@ -88,7 +88,7 @@ export default function Home() {
                     </p>
                   </div>
                   <button type="button" class="boxed-btn btn-rounded">
-                    <a href="/about">Find out more >></a>
+                    <a href="/solutions">Find out more >></a>
                   </button>
                 </li>
               </ul>
