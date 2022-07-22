@@ -88,6 +88,9 @@ export default function Header() {
                 <a href="/products">Products</a>
               </li>
               <li>
+                <a href="/career">Career</a>
+              </li>
+              <li>
                 <a href="/contact">Contact us</a>
               </li>
               <li>

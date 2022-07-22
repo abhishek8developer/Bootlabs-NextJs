@@ -1,0 +1,14 @@
+/* # is id, . is class */
+/* when #career is used, we are giving css to any tagname or element with id="career"   */
+/* when .bg-name is used, we are giving css to any tagname or element with class="bg-name"  */
+/* when css selector #career.bg-name is written without space it means an
+    Any tagname or element with id="career" and class="bg-name" both properties should be
+    present on the same tagname */
+/* when css selector #career .bg-name is written with space it means an
+    Any tagname or element with id="career" and child tagname with class="bg-name" 
+    present on the same tagname */
+#career .bg-image {
+    background: url("/images/bg/pricing_plan.jpg") no-repeat center center;
+    color: white;
+}
+

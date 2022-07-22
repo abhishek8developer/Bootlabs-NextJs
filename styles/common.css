@@ -35,3 +35,7 @@ h1.blue-underline-heading:after {
     bottom: -7px;
     transform: translateX(-50%);
 }
+
+#career .bg_image {
+    background: url("/images/bg/pricing_plan.jpg") no-repeat center center;
+}

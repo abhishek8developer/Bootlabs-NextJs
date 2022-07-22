@@ -1,5 +1,6 @@
 import '../styles/common.css'
 import '../styles/contact.css'
+import '../styles/career.css'
 import '../styles/aboutus.css'
 import '../styles/product.css'
 import '../styles/footer.css'
