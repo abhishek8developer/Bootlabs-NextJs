@@ -1,4 +1,4 @@
-/* # is id, . is class */
+/* # is id, . is class, */
 /* when #career is used, we are giving css to any tagname or element with id="career"   */
 /* when .bg-name is used, we are giving css to any tagname or element with class="bg-name"  */
 /* when css selector #career.bg-name is written without space it means an
@@ -10,5 +10,46 @@
 #career .bg-image {
     background: url("/images/bg/pricing_plan.jpg") no-repeat center center;
     color: white;
+    padding: 30vh 0;
+    text-align: center;
 }
 
+#career .bg-image h2 {
+    color: white;
+}
+
+#career .bg-image p {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#career .blue-underline-heading {
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+
+#career .box {
+    border: 2px solid white;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 12px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+#career .box label {
+    color: #515764;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+#career .apply {
+    color: #020c8a;
+    font-size: 16px;
+    font-weight: 600;
+}

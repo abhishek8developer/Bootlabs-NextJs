@@ -25,6 +25,7 @@ h1.blue-underline-heading {
     color: #020b8a;
     margin-bottom: 38px;
 }
+
 h1.blue-underline-heading:after {
     content: '';
     position: absolute;
@@ -38,4 +39,9 @@ h1.blue-underline-heading:after {
 
 #career .bg_image {
     background: url("/images/bg/pricing_plan.jpg") no-repeat center center;
+}
+
+.bg-grey {
+    background-color: #f0f4fd;
+
 }
