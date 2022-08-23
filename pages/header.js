@@ -15,6 +15,7 @@ export default function Header() {
       <Head>
         <link rel="icon" href="/cloud1.png" />
         <link rel="stylesheet" href="/style.css" />
+        <script src="https://apis.google.com/js/api.js"></script>
         <script src="/js/jquery.js"></script>
         <script src="/js/popper.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
@@ -26,11 +27,7 @@ export default function Header() {
         <script src="/js/jquery.counterup.min.js"></script>
         <script src="/js/main.js"></script>
 
-        <link
-          rel="shortcut icon"
-          href="/images/favicon.svg"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon" />
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/css/fontawesome.5.7.2.css" />
         <link rel="stylesheet" href="/css/flaticon.css" />
@@ -39,7 +36,6 @@ export default function Header() {
         <link rel="stylesheet" href="/css/magnific-popup.css" />
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/responsive.css" />
-
       </Head>
       <nav className="navbar navbar-area navbar-expand-lg nav-absolute white nav-style-01">
         <div className="container nav-container">
