@@ -12,8 +12,7 @@
     border-bottom: none;
 }
 
-#aboutus .heading-content h1,
-#aboutus .heading-content p {
+#aboutus .heading-content {
     color: #fff;
     text-align: center;
 }

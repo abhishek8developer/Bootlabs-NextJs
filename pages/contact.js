@@ -42,25 +42,25 @@ export default function Contact (){
                 {/* <div className="shape-3"><img src="/images/shape/03.png" alt=""/></div> */}
                 <div className="container">            
                     <div className="col-lg">
-                        <div className="Form-header-inner"> 
-                            <h1 className="title wow fadeInDown">Have a question or want to know more about us?</h1>
-                            <h1 className="title wow fadeInDown">Get in touch</h1>
+                        <div className="Form-header-inner text-center"> 
+                            <h2 className="blue-underline-heading wow fadeInDown">Have a question or want to know more about us?</h2>
+                            <h2 className="main-heading wow fadeInDown">Get in touch</h2>
                         </div>
                     </div>
                     <div className="Form-container">
                         <form onSubmit={fireEmail}>
                             <div className='form-group'>
-                                <input type="text" name="fname" onChange={onChange} placeholder="First Name" required/>
-                                <input type="text" name="lname" onChange={onChange} placeholder="Last Name" required/>
+                                <input type="text" name="fname" onChange={onChange} value={form.fname} placeholder="First Name" required/>
+                                <input type="text" name="lname" onChange={onChange} value={form.lname} placeholder="Last Name" required/>
                             </div>
                             <div className='form-group'>
-                                <input type="email" name="emailId" onChange={onChange} placeholder="Email id" required/>
+                                <input type="email" name="emailId" onChange={onChange} value={form.emailId} placeholder="Email id" required/>
                             </div>
                             <div className='form-group'>
-                                <input type="text" name="phone" onChange={onChange} placeholder="Phone Number" required/>
+                                <input type="text" name="phone" onChange={onChange} value={form.phone} placeholder="Phone Number" required/>
                             </div>
                             <div className='form-group'>
-                                <textarea name="message" onChange={onChange} rows="10" placeholder="Enter message"></textarea>
+                                <textarea name="message" onChange={onChange} value={form.message} rows="10" placeholder="Enter message"></textarea>
                             </div>
                             <button type="submit" onClick={fireEmail}>Send</button>
                         </form>

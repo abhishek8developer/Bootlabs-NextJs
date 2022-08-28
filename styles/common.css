@@ -1,3 +1,11 @@
+body, p, span {
+    color: #727272;
+}
+
+body.white, p.white, span.white {
+    color: #fff;
+}
+
 .boxed-btn:hover {
     color: #fff;
     background: #fff;
@@ -6,6 +14,44 @@
 
 button.boxed-btn:hover a {
     color: #500ade;
+}
+
+h2.blue-underline-heading {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    margin: 4vw 0;
+    display: inline-flex;
+    position: relative;
+    text-align: center;
+    color: #020b8a;
+}
+
+h2.blue-underline-heading:after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    background-color: #020b8a;
+    left: 50%;
+    bottom: -7px;
+    transform: translateX(-50%);
+}
+
+h2.main-heading {
+    font-size: 2.5vw;
+    line-height: 5vw;
+    margin: 2vw 0;
+    color: #020b8a;
+}
+h2.main-heading.white {
+    color: #fff;
+}
+@media screen and (max-width: 575px) {
+    h2.main-heading {
+        font-size: 5vw;
+        line-height: 7vw;
+        margin-bottom: 7vw;
+    }
 }
 
 .blog {
@@ -17,31 +63,10 @@ button.boxed-btn:hover a {
     align-items: center;
 }
 
-h1.blue-underline-heading {
-    position: relative;
-    text-align: center;
-    display: inline-flex;
-    font-size: 4vw;
-    color: #020b8a;
-    margin-bottom: 38px;
-}
-
-h1.blue-underline-heading:after {
-    content: '';
-    position: absolute;
-    width: 20%;
-    height: 1px;
-    background-color: #020b8a;
-    left: 50%;
-    bottom: -7px;
-    transform: translateX(-50%);
-}
-
 #career .bg_image {
     background: url("/images/bg/pricing_plan.jpg") no-repeat center center;
 }
 
 .bg-grey {
     background-color: #f0f4fd;
-
 }

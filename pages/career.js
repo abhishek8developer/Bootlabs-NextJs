@@ -31,25 +31,23 @@ export default function Career() {
   return (
     <>
       <Header />
-      <section class="how-it-work-area" id="career">
+      <section class="how-it-work-area bg-grey" id="career">
         <div class="container-fluid">
           <div class="row justify-content-center">
             <div className="col-lg-12 bg-image">
-              <h2> Join Our Team </h2>
+              <h2 className="main-heading white"> Join Our Team </h2>
               <p>
-                {" "}
                 We're simplifying the cloud for developers. We need talented
                 people like you to help us support and expand our
                 high-performance cloud infrastructure.
               </p>
             </div>
           </div>
-
-          <div className="row bg-grey">
+          <div className="row">
             <div className="container" data-aos="fade-up">
               <div className="row">
                 <div className="col-lg-12 text-center ">
-                  <h1 className="blue-underline-heading">Current Opening</h1>
+                  <h2 className="blue-underline-heading">Current Opening</h2>
                 </div>
               </div>
               {jobs.map((job) => (

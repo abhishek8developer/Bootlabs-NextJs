@@ -14,10 +14,6 @@
     text-align: center;
 }
 
-#career .bg-image h2 {
-    color: white;
-}
-
 #career .bg-image p {
     width: 35%;
     margin-left: auto;
@@ -27,8 +23,7 @@
 
 #career .blue-underline-heading {
     margin-top: 60px;
-    margin-bottom: 40px;
-
+    margin-bottom: 60px;
 }
 
 

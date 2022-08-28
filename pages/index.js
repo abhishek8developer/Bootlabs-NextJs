@@ -6,49 +6,49 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="container">
-        <header class="header-area header-bg" id="home">
-          <div class="shape-1">
+      <div className="container-fluid">
+        <section className="header-area header-bg" id="home">
+          <div className="shape-1">
             <img src="/images/shape/01.png" alt="" />
           </div>
-          <div class="shape-2">
+          <div className="shape-2">
             <img src="/images/shape/02.png" alt="" />
           </div>
-          <div class="shape-3">
+          <div className="shape-3">
             <img src="/images/shape/03.png" alt="" />
           </div>
-          <div class="header-right-image wow zoomIn">
+          <div className="header-right-image wow zoomIn">
             <img src="/images/mobile-image-4.png" alt="header right image" />
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-7">
-                <div class="header-inner">
-                  <h1 class="title wow fadeInDown">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-7">
+                <div className="header-inner">
+                  <h2 className="main-heading wow fadeInDown">
                     Embark your Digital Journey
-                  </h1>
+                  </h2>
                   <p>
                     While you focus on moulding your product, we build a secured
                     platform for you on the cloud
                   </p>
-                  <div class="btn-wrapper wow fadeInUp">
-                    {/* <!--   <a href="#about" class="boxed-btn btn-rounded">About Us</a>
-                      <a href="" class="boxed-btn btn-rounded blank">Learn More</a> --> */}
+                  <div className="btn-wrapper wow fadeInUp">
+                    {/* <!--   <a href="#about" className="boxed-btn btn-rounded">About Us</a>
+                      <a href="" className="boxed-btn btn-rounded blank">Learn More</a> --> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </header>
-        <section class="about-us-area style-two" id="about">
-          <div class="container">
-            <h1 className="blue-underline-heading">Let us help with your Cloud Journey</h1>
-            <div class="row">
-              <ul class="feature-list style-03">
-                <li class="single-feature-list wow zoomIn">
+        </section>
+        <section className="about-us-area style-two" id="about">
+          <div className="container text-center">
+            <h2 className="blue-underline-heading">Let us help with your Cloud Journey</h2>
+            <div className="row">
+              <ul className="feature-list style-03">
+                <li className="single-feature-list wow zoomIn">
                   <img src="/images/icon-1.png" />
-                  <div class="content">
-                    <h4 class="title">
+                  <div className="content">
+                    <h4 className="title">
                       <a href="#">Devops Consulting</a>
                     </h4>
                     <p>
@@ -56,14 +56,14 @@ export default function Home() {
                       ensure product delivery pipeline is seamless
                     </p>
                   </div>
-                  <button type="button" class="boxed-btn btn-rounded">
+                  <button type="button" className="boxed-btn btn-rounded">
                     <a href="/solutions">Find out more >></a>
                   </button>
                 </li>
-                <li class="single-feature-list wow zoomIn">
+                <li className="single-feature-list wow zoomIn">
                   <img src="/images/icon-2.png" />
-                  <div class="content">
-                    <h4 class="title">
+                  <div className="content">
+                    <h4 className="title">
                       <a href="#">Cloud Consulting</a>
                     </h4>
                     <p>
@@ -72,14 +72,14 @@ export default function Home() {
                       architecture on cloud
                     </p>
                   </div>
-                  <button type="button" class="boxed-btn btn-rounded">
+                  <button type="button" className="boxed-btn btn-rounded">
                     <a href="/solutions">Find out more >></a>
                   </button>
                 </li>
-                <li class="single-feature-list wow zoomIn">
+                <li className="single-feature-list wow zoomIn">
                   <img src="/images/icon-3.png" />
-                  <div class="content">
-                    <h4 class="title">
+                  <div className="content">
+                    <h4 className="title">
                       <a href="#">Application Development</a>
                     </h4>
                     <p>
@@ -87,7 +87,7 @@ export default function Home() {
                       deliver the software with utmost quality
                     </p>
                   </div>
-                  <button type="button" class="boxed-btn btn-rounded">
+                  <button type="button" className="boxed-btn btn-rounded">
                     <a href="/solutions">Find out more >></a>
                   </button>
                 </li>
@@ -95,25 +95,25 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section class="how-it-work-area" id="approach">
-          <div class="shape-1">
+        <section className="how-it-work-area" id="approach">
+          <div className="shape-1">
             <img src="/images/shape/08.png" alt="" />
           </div>
-          <div class="shape-2">
+          <div className="shape-2">
             <img src="/images/shape/09.png" alt="" />
           </div>
-          <div class="shape-3">
+          <div className="shape-3">
             <img src="/images/shape/08.png" alt="" />
           </div>
-          <div class="shape-4">
+          <div className="shape-4">
             <img src="/images/shape/09.png" alt="" />
           </div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-10">
-                <div class="section-title">
-                  <span class="subtitle">Working Process</span>
-                  <h3 class="title">How it works?</h3>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
+                <div className="section-title">
+                  <span className="subtitle">Working Process</span>
+                  <h2 className="main-heading">How it works?</h2>
                   <p>
                     We have crafted the process to ensure there is clear delivery
                     principles followed
@@ -121,13 +121,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="how-it-work-tab-nav">
-                  <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="how-it-work-tab-nav">
+                  <ul className="nav nav-tabs" role="tablist">
+                    <li className="nav-item">
                       <a
-                        class="nav-link active"
+                        className="nav-link active"
                         id="account-tab"
                         data-toggle="tab"
                         href="#account"
@@ -135,13 +135,13 @@ export default function Home() {
                         aria-controls="account"
                         aria-selected="true"
                       >
-                        <i class="flaticon-checked"></i> Inception{" "}
-                        <span class="number">1</span>
+                        <i className="flaticon-checked"></i> Inception{" "}
+                        <span className="number">1</span>
                       </a>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                       <a
-                        class="nav-link"
+                        className="nav-link"
                         id="chat-tab"
                         data-toggle="tab"
                         href="#chat"
@@ -149,13 +149,13 @@ export default function Home() {
                         aria-controls="chat"
                         aria-selected="false"
                       >
-                        <i class="flaticon-chat-1"></i> Planning{" "}
-                        <span class="number">2</span>
+                        <i className="flaticon-chat-1"></i> Planning{" "}
+                        <span className="number">2</span>
                       </a>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                       <a
-                        class="nav-link"
+                        className="nav-link"
                         id="settings-tab"
                         data-toggle="tab"
                         href="#settings"
@@ -163,24 +163,24 @@ export default function Home() {
                         aria-controls="settings"
                         aria-selected="false"
                       >
-                        <i class="flaticon-settings-1"></i> Execution{" "}
-                        <span class="number">3</span>
+                        <i className="flaticon-settings-1"></i> Execution{" "}
+                        <span className="number">3</span>
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div class="tab-content wow slideInUp">
+                <div className="tab-content wow slideInUp">
                   <div
-                    class="tab-pane fade show active"
+                    className="tab-pane fade show active"
                     id="account"
                     role="tabpanel"
                     aria-labelledby="account-tab"
                   >
-                    <div class="how-it-works-tab-content">
-                      <div class="row">
-                        <div class="col-lg-6">
-                          <div class="left-content-area">
-                            <h4 class="title">Inception</h4>
+                    <div className="how-it-works-tab-content">
+                      <div className="row">
+                        <div className="col-lg-6">
+                          <div className="left-content-area">
+                            <h4 className="title">Inception</h4>
                             <p>
                               <b>Requirement gathering</b>: Multiple discussions
                               to thoroughly understand and clarify the functional
@@ -203,9 +203,9 @@ export default function Home() {
                             </p>
                           </div>
                         </div>
-                        <div class="col-lg-6">
-                          <div class="right-content-area">
-                            <div class="img-wrapper">
+                        <div className="col-lg-6">
+                          <div className="right-content-area">
+                            <div className="img-wrapper">
                               <img
                                 src="/images/inception.png"
                                 alt="how it works image"
@@ -217,16 +217,16 @@ export default function Home() {
                     </div>
                   </div>
                   <div
-                    class="tab-pane fade"
+                    className="tab-pane fade"
                     id="chat"
                     role="tabpanel"
                     aria-labelledby="chat-tab"
                   >
-                    <div class="how-it-works-tab-content">
-                      <div class="row">
-                        <div class="col-lg-6">
-                          <div class="left-content-area">
-                            <h4 class="title">Planning</h4>
+                    <div className="how-it-works-tab-content">
+                      <div className="row">
+                        <div className="col-lg-6">
+                          <div className="left-content-area">
+                            <h4 className="title">Planning</h4>
                             <p>
                               The aim is to gather the information necessary to
                               control the software project. It describes the
@@ -246,9 +246,9 @@ export default function Home() {
                             </ul>
                           </div>
                         </div>
-                        <div class="col-lg-6">
-                          <div class="right-content-area">
-                            <div class="img-wrapper">
+                        <div className="col-lg-6">
+                          <div className="right-content-area">
+                            <div className="img-wrapper">
                               <img
                                 src="/images/planning.png"
                                 alt="how it works image"
@@ -260,16 +260,16 @@ export default function Home() {
                     </div>
                   </div>
                   <div
-                    class="tab-pane fade"
+                    className="tab-pane fade"
                     id="settings"
                     role="tabpanel"
                     aria-labelledby="settings-tab"
                   >
-                    <div class="how-it-works-tab-content">
-                      <div class="row">
-                        <div class="col-lg-6">
-                          <div class="left-content-area">
-                            <h4 class="title">Execution</h4>
+                    <div className="how-it-works-tab-content">
+                      <div className="row">
+                        <div className="col-lg-6">
+                          <div className="left-content-area">
+                            <h4 className="title">Execution</h4>
                             <p>
                               We believe that the way people interact with each
                               other is the primary determinant of success for a
@@ -290,9 +290,9 @@ export default function Home() {
                             </p>
                           </div>
                         </div>
-                        <div class="col-lg-6">
-                          <div class="right-content-area">
-                            <div class="img-wrapper">
+                        <div className="col-lg-6">
+                          <div className="right-content-area">
+                            <div className="img-wrapper">
                               <img
                                 src="/images/deliver.png"
                                 alt="how it works image"
