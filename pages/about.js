@@ -15,8 +15,8 @@ export default function About() {
                 <div className="container">
                     <div className="col-lg-12">
                         <div className="heading-content">
-                            <h1 className="title wow fadeInDown">ABOUT US</h1>
-                            <p>The Cloud is complex. We make it Simple.</p>
+                            <h2 className="main-heading white wow fadeInDown">ABOUT US</h2>
+                            <p className="white">The Cloud is complex. We make it Simple.</p>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ export default function About() {
                 <div className="container text-center aos-init aos-animate" data-aos="fade-up">
                     <div className="row content">
                         <header className="section-header text-center justify-content-center wow fadeInDown">
-                            <h1 className='blue-underline-heading'>Our Mission</h1>
+                            <h2 className='blue-underline-heading'>Our Mission</h2>
                             <p>As a Cloud Oriented company, Bootlabs is simplifying cloud, with our Frameworks, Strategies and Consulting. Our focus is to make our Clients achieve reliability , availability and excellent reduction in time to market their products.
                                 We are new-gen and new-tech company in pursuit to make Multi-cloud way of life for everyone.
                             </p>
@@ -43,7 +43,7 @@ export default function About() {
                 <div className="container text-center aos-init aos-animate" data-aos="fade-up">
                     <div className="row content">
                         <header className="section-header text-center justify-content-center wow fadeInDown">
-                            <h1 className='blue-underline-heading'>Our Team</h1>
+                            <h2 className='blue-underline-heading'>Our Team</h2>
                             <p>We believe that only the best specialists create the best products. Our team has tremendous experience in the information technology field and is focused on creating new vectors for IT industry development</p>
                         </header>
                     </div>

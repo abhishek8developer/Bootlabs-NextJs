@@ -7,7 +7,7 @@ export default function Solutions() {
             <Header />
             <section class="solution-area style-two" id="solutions">
                 <div class="container">
-                    <h1 className="blue-underline-heading">Let us help with your Cloud Journey</h1>
+                    <h2 className="blue-underline-heading">Let us help with your Cloud Journey</h2>
                     <div class="row">
                         <ul class="feature-list style-03">
                             <li class="single-feature-list wow zoomIn">
@@ -51,6 +51,55 @@ export default function Solutions() {
                                 {/* <button type="button" class="boxed-btn btn-rounded">
                                     <a href="/about">Find out more >></a>
                                 </button> */}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container pt-5">
+                    <div className="section-title">
+                        <span className="subtitle">ARE YOU STRUGGLING WITH</span>
+                        <h2 className="main-heading">Building DevOps Capability?</h2>
+                        <p>Improving speed to market or operational agility?</p>
+                        <br/>
+                        <p>We are continuous experimenters in DevSecOps transformations. Having successfully transformed large digital platforms across various industries including Automotive, BFSI & Retail, e-commerce, our motto is to engineer a seamless digital fluency to your business. Powered by DevSecOps tools of your choice, this package delivers in just 3-6months, your automation needs. For beginners, intermediates and advanced SaaS organizations.</p>
+                    </div>
+                    <div class="row">
+                        <ul class="feature-list style-03 style-04">
+                            <li class="single-feature-list wow zoomIn">
+                                <img src="/images/icon-1.png" />
+                                <div class="content">
+                                    <h4 class="title">
+                                        <a href="#">Automated Pipeline (CI / CD)</a>
+                                    </h4>
+                                    <p>Cover different tech stack needs with efficient management of automated deployments for each type of release. Ensure build, deploy and operate are seamless. Unit / Integration / Security / Performance testing. Infrastructure as a Code and Release Orchestration.</p>
+                                </div>
+                            </li>
+                            <li class="single-feature-list wow zoomIn">
+                                <img src="/images/icon-2.png" />
+                                <div class="content">
+                                    <h4 class="title">
+                                        <a href="#">Kubernetes Enablement</a>
+                                    </h4>
+                                    <p>Deliver best-in-class cloud-agnostic container orchestration for your workloads. Migrate your workloads from VM's to containers. Automate cluster deployment strategies. Service-mesh enablement for microservices. Scalability based on custom metrics</p>
+                                </div>
+                            </li>
+                            <li class="single-feature-list wow zoomIn">
+                                <img src="/images/icon-3.png" />
+                                <div class="content">
+                                    <h4 class="title">
+                                        <a href="#">Observability and Monitoring</a>
+                                    </h4>
+                                    <p>Behavioural insight definitions for performance, compliance and security on your services and applications. Automate monitoring, tracing and logging. Connected view of all performance metrics at one place. Pinpoint issues faster and understand why</p>
+                                </div>
+                            </li>
+                            <li class="single-feature-list wow zoomIn">
+                                <img src="/images/icon-3.png" />
+                                <div class="content">
+                                    <h4 class="title">
+                                        <a href="#">Security</a>
+                                    </h4>
+                                    <p>Securing application and infrastructure using compliance checkpoints. Provide central SIEM (Security, Information and Event Management). Cloud compliance and governance. Granular, policy based IAM and authentication controls</p>
+                                </div>
                             </li>
                         </ul>
                     </div>

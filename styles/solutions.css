@@ -10,7 +10,9 @@
 #solutions .feature-list li.single-feature-list .content p {
     text-align: justify;
 }
-
+section#solutions .main-heading {
+    margin: 0;
+}
 @media screen and (max-width: 1200px) {
     #solutions .feature-list li.single-feature-list .content {
         min-height: 400px;

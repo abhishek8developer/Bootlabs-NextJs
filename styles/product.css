@@ -1,16 +1,22 @@
 section#product {
-    padding: 120px 0;
+    padding: 20px 0;
+    background: #f6f7fd;
 }
 #product.header-area {
     text-align: center;
 }
 #product .image-frame {
     position: relative;
-    background: #fff;
+    background: #8c43ee;
     background: url('/images/bg/pricing_plan.jpg') center center no-repeat ;
     border-radius: 15px;
     padding: 50px;
-    margin: 30px;
+    margin: 10px 30px;
+}
+#product .image-frame .image-scroller {
+    width: 100%;
+    overflow: auto;
+    height: 50vw;
 }
 #product .image-frame a {
     cursor: pointer;
