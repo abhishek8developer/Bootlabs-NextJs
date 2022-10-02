@@ -38,7 +38,7 @@ h2.blue-underline-heading:after {
 }
 
 h2.main-heading {
-    font-size: 2.5vw;
+    font-size: 2.25vw;
     line-height: 5vw;
     margin: 2vw 0;
     color: #020b8a;
@@ -69,4 +69,17 @@ h2.main-heading.white {
 
 .bg-grey {
     background-color: #f0f4fd;
+}
+.bg-black {
+    background-color: #02141f;
+}
+.white {
+    color: #fff !important;
+}
+
+.text-on-dark-bg {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #38bdf8, #4f46e5);
 }
