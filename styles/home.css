@@ -3,10 +3,17 @@
     box-sizing: border-box;
     width: 100vw;
 }
+section#home.header-area {
+    background: linear-gradient(0deg, #fff, #057);
+}
 
 section#home.header-area.header-bg {
     min-height: 70vh;
     padding: 25vh 0 0 0;
+}
+
+section#home.header-area .header-inner p {
+    color: #fff;
 }
 
 section#home.header-area.header-bg .header-right-image {
@@ -14,6 +21,12 @@ section#home.header-area.header-bg .header-right-image {
     bottom: 0px;
     right: 0%;
     width: 35vw;
+}
+
+section#home h2.main-heading {
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+    margin: 2vw 0;
 }
 
 section#home.header-area .header-right-image img {
@@ -24,6 +37,32 @@ section#home.header-area .header-right-image img {
 section#home .main-heading, section#approach .main-heading {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+section#difficult {
+    background: linear-gradient(180deg, #fff 50%, #057 325%)
+}
+
+.about-us-area .center-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-area .service-images {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.about-us-area .content {
+    width: 325px;
+}
+
+.about-us-area .content .title {
+    text-align: left;
+}
+.about-us-area .content p {
+    text-align: justify;
 }
 
 .feature-list.style-03 {

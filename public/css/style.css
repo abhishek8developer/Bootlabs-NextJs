@@ -4806,7 +4806,7 @@ select:focus {
 
 .footer-widget.widget_nav_menu ul li a {
   position: relative;
-  padding-left: 15px;
+  padding-left: 0px;
 }
 
 .footer-widget.widget_nav_menu ul li a:after {

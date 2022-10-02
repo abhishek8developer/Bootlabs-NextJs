@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <div className="container-fluid">
-        <section className="header-area header-bg" id="home">
+        <section className="header-area header-bg row" id="home">
           <div className="shape-1">
             <img src="/images/shape/01.png" alt="" />
           </div>
@@ -25,11 +25,10 @@ export default function Home() {
               <div className="col-lg-7">
                 <div className="header-inner">
                   <h2 className="main-heading wow fadeInDown">
-                    Embark your Digital Journey
+                    Building catalysts for Clouds and Pipelines
                   </h2>
                   <p>
-                    While you focus on moulding your product, we build a secured
-                    platform for you on the cloud
+                    Bridging the gap between business and cloud ecosystems by building accelerators
                   </p>
                   <div className="btn-wrapper wow fadeInUp">
                     {/* <!--   <a href="#about" className="boxed-btn btn-rounded">About Us</a>
@@ -40,62 +39,122 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="about-us-area style-two" id="about">
-          <div className="container text-center">
-            <h2 className="blue-underline-heading">Let us help with your Cloud Journey</h2>
-            <div className="row">
-              <ul className="feature-list style-03">
-                <li className="single-feature-list wow zoomIn">
-                  <img src="/images/icon-1.png" />
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="#">Devops Consulting</a>
-                    </h4>
-                    <p>
-                      From development to operations, we provide solutions to
-                      ensure product delivery pipeline is seamless
-                    </p>
-                  </div>
-                  <button type="button" className="boxed-btn btn-rounded">
-                    <a href="/solutions">Find out more >></a>
-                  </button>
-                </li>
-                <li className="single-feature-list wow zoomIn">
-                  <img src="/images/icon-2.png" />
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="#">Cloud Consulting</a>
-                    </h4>
-                    <p>
-                      With our strong expertise in multiple cloud platform (AWS,
-                      GCP, Azure), we will be able to build a solid and secured
-                      architecture on cloud
-                    </p>
-                  </div>
-                  <button type="button" className="boxed-btn btn-rounded">
-                    <a href="/solutions">Find out more >></a>
-                  </button>
-                </li>
-                <li className="single-feature-list wow zoomIn">
-                  <img src="/images/icon-3.png" />
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="#">Application Development</a>
-                    </h4>
-                    <p>
-                      Following Test driven development, our full stack engineers
-                      deliver the software with utmost quality
-                    </p>
-                  </div>
-                  <button type="button" className="boxed-btn btn-rounded">
-                    <a href="/solutions">Find out more >></a>
-                  </button>
-                </li>
-              </ul>
+        <section class="partners row" id="partners">
+          <div class="container text-center">
+            <h2 className="blue-underline-heading">PROUD PARTNERS</h2>
+            <div class="row">
+              <div class="col-md-3 col-6">
+                <img src="images/aws.svg" alt="AWS" />
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="images/spot.png" alt="Spot.io" />
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="images/gcp.svg" alt="GCP" />
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="images/ingram.png" alt="Ingram" />
+              </div>
             </div>
           </div>
         </section>
-        <section className="how-it-work-area" id="approach">
+        <section className="difficult row" id="difficult">
+          <div className="container text-center pb-5">
+            <h2 className="blue-underline-heading">Difficulty in building your DevOps capability?</h2>
+            <div className="row py-2">
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p>We are continuous experimenters in DevSecOps transformations. Having successfully
+                  transformed large digital platforms across various industries including Automotive,
+                  BFSI & Retail, e-commerce, our motto is to engineer a seamless digital fluency to 
+                  your business. Powered by DevSecOps tools of your choice, this package delivers in 
+                  just 3-6 months, your automation needs. For beginners, intermediates and advanced 
+                  SaaS organizations.</p>
+              </div>
+              <div class="col-lg-1">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="about-us-area row bg-black style-two pb-5" id="about">
+          <div className="container text-center">
+            <h2 className="blue-underline-heading text-on-dark-bg">Let us help with your Cloud Journey</h2>
+            <div className="row py-4">
+              <div className="col-7 center-image">
+                <img src="/images/icon-1.png" className="service-images" width="150px" />
+              </div>
+              <div className="col-5">
+                <div className="content">
+                  <h4 className="title text-on-dark-bg">Automated Pipeline (CI / CD)</h4>
+                  <p className='white'>
+                    Cover different tech stack needs 
+                    with efficient management of 
+                    automated deployments for each 
+                    type of release. Ensure build, 
+                    deploy and operate are seamless. 
+                    Unit / Integration / Security / 
+                    Performance testing. Infrastructure 
+                    as a Code and Release Orchestration.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="row py-4">
+              <div className="col-5">
+                <div className="content">
+                  <h4 className="title text-on-dark-bg">Kubernetes Enablement</h4>
+                  <p className='white'>
+                    Deliver best-in-class cloud-agnostic container 
+                    orchestration for your workloads. Migrate your 
+                    workloads from VM's to containers. Automate 
+                    cluster deployment strategies. Service-mesh 
+                    enablement for microservices. Scalability 
+                    based on custom metrics
+                  </p>
+                </div>
+              </div>
+              <div className="col-7 center-image">
+                <img src="/images/icon-2.png" className="service-images" width="150px" />
+              </div>
+            </div>
+            <div className="row py-4">
+              <div className="col-7 center-image">
+                <img src="/images/icon-1.png" className="service-images" width="150px" />
+              </div>
+              <div className="col-5">
+                <div className="content">
+                  <h4 className="title text-on-dark-bg">Observability and Monitoring</h4>
+                  <p className='white'>
+                    Behavioural insight definitions for performance, 
+                    compliance and security on your services and 
+                    applications. Automate monitoring, tracing and 
+                    logging. Connected view of all performance metrics 
+                    at one place. Pinpoint issues faster and understand why
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="row py-4">
+              <div className="col-5">
+                <div className="content">
+                  <h4 className="title text-on-dark-bg">Security</h4>
+                  <p className='white'>
+                    Securing application and infrastructure using 
+                    compliance checkpoints. Provide central SIEM 
+                    (Security, Information and Event Management). 
+                    Cloud compliance and governance. Granular, 
+                    policy based IAM and authentication controls
+                  </p>
+                </div>
+              </div>
+              <div className="col-7 center-image">
+                <img src="/images/icon-2.png" className="service-images" width="150px" />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*<section className="how-it-work-area" id="approach">
           <div className="shape-1">
             <img src="/images/shape/08.png" alt="" />
           </div>
@@ -234,7 +293,7 @@ export default function Home() {
                               the development effort and track progress.
                             </p>
                             <p>Focussed actions are listed below:</p>
-                            <ul style={{ listStyleType:'disc'}}>
+                            <ul style={{ listStyleType: 'disc' }}>
                               <li>Architecture</li>
                               <li>Application Design</li>
                               <li>Infrastructure Design</li>
@@ -307,21 +366,56 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>*/}
+        <section className="partners" id="partners">
+          <div className="container text-center pb-5">
+            <h2 className="blue-underline-heading">Our Partners</h2>
+            <div className="row py-2">
+              <div class="col-lg-3">
+                <div class="col-12 py-4">
+                  <img src="images/falabella.svg" class="object-cover" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="col-12 py-4">
+                  <img src="images/mahindra_logo.svg" class="object-cover" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="col-12 py-4">
+                  <img src="images/deserve.svg" class="object-cover" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="col-12 py-4">
+                  <img src="images/ola.svg" class="object-cover" />
+                </div>
+              </div>
+            </div>
+            <div className="row py-2">
+              <div class="col-lg-3">
+                <div class="col-12 py-4">
+                  <img src="images/crisil.png" class="object-cover" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="col-12 py-4">
+                  <img src="images/astraZeneca.svg" class="object-cover" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="col-12 py-4">
+                  <img src="images/thoughtworks.svg" class="object-cover" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="col-12 py-4">
+                  <img src="images/bewakoof.svg" class="object-cover" />
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-        {/* <style jsx global>{`
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-          }
-          
-          * {
-            box-sizing: border-box;
-          }
-        `}</style> */}
       </div>
       <Footer />
     </>
