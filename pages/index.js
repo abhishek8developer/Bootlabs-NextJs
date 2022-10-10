@@ -25,7 +25,7 @@ export default function Home() {
               <div className="col-lg-7">
                 <div className="header-inner">
                   <h2 className="main-heading wow fadeInDown">
-                    Building catalysts for Clouds and Pipelines
+                    Accelerating Cloud Journeys and Pipelines
                   </h2>
                   <p>
                     Bridging the gap between business and cloud ecosystems by building accelerators
@@ -39,30 +39,106 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section class="partners row" id="partners">
+        <section class="partners row bg-black style-two pb-5" id="partners">
           <div class="container text-center">
-            <h2 className="blue-underline-heading">PROUD PARTNERS</h2>
+            <h2 className="white-underline-heading">Proud Partners</h2>
             <div class="row">
               <div class="col-md-3 col-6">
-                <img src="images/aws.svg" alt="AWS" />
+                <img src="images/aws.svg" alt="AWS"/>
               </div>
               <div class="col-md-3 col-6">
-                <img src="images/spot.png" alt="Spot.io" />
+                <img src="images/Spot.png" alt="Spot.io"/>
+              </div>              
+              <div class="col-md-3 col-6">
+                <img src="images/Ingram.png" alt="Ingram"/>
               </div>
               <div class="col-md-3 col-6">
-                <img src="images/gcp.svg" alt="GCP" />
-              </div>
-              <div class="col-md-3 col-6">
-                <img src="images/ingram.png" alt="Ingram" />
+                <img src="images/gcp.svg" alt="GCP"/>
               </div>
             </div>
           </div>
         </section>
         <section className="difficult row" id="difficult">
           <div className="container text-center pb-5">
-            <h2 className="blue-underline-heading">Difficulty in building your DevOps capability?</h2>
+            <h2 className="blue-underline-heading">We will bring the best of Cloud for you</h2>
             <div className="row py-2">
               <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p>We make you Fast in the distributed world running on Cloud.</p> 
+                  <p>With our Templates, Workflows, Frameworks and our Custom Products.</p> 
+                <p>We partner you in your journey of Modernization, Migration, Digital Transformation or Future Readiness.</p>
+                <p>We help you run the show fast with Day0, Day1 and Day2 readiness on any of your Public Cloud Subscription 
+                  and when you want to interchange your workloads across them.</p>
+              </div>
+              <div class="col-lg-1">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="about-us-area row bg-black style-two pb-5" id="about">
+          <div className="container text-center">
+            <h2 className="white-underline-heading text-on-dark-bg">Cloud Offerings</h2>
+            <div className="container-fluid">
+            <div className="row py-4">              
+              <div className="col-8">
+                <div className="content">
+                <img src="/images/cloud-consulting.png" className="service-images" width="70px" /> 
+                <p></p>
+                <h4 className="title text-lg-center text-on-dark-bg">Cloud Consulting</h4>
+                  <p className='white'>With our extended exposure and architectural experience in the major 
+                  Public cloud like AWS, Azure, GCP, Oracle, digital ocean and hybrid cloud and data center 
+                  we have learned their peculiarities and we always share them as our core consulting services.
+                  ...<a href="\consulting" className="title text-lg-center text-on-dark-bg">Know More</a>
+                  </p>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="content">
+                <img src="/images/360-degrees.png" className="service-images" width="70px" /> 
+                <p></p>
+                <h4 className="title text-lg-center text-on-dark-bg">360&deg; Ops</h4>
+                  <p className='white'>Accelerate your cloud journey by leveraging our end-to-end Cloud managed services. 
+                  Make your cloud journey simpler, faster, and cost-effective, while meeting your business and digital objectives.
+                  ...<a href="\360Ops" className="title text-lg-center text-on-dark-bg">Know More</a>
+                  </p>
+                </div>
+              </div>
+              </div>
+              <div className="row py-4">
+              <div className="col-8">
+                <div className="content">
+                <img src="/images/cloud-digital-transformation.png" className="service-images" width="70px" />  
+                <p></p> 
+                <h4 className="title text-lg-center text-on-dark-bg">Digital Transformation</h4>
+                  <p className='white'>
+                  We help you adopt transformation that is scalable, data-centric , evolutionary and modern 
+                  while keeping your costs within the estimations.
+                  ...<a href="\transform" className="title text-lg-center text-on-dark-bg">Know More</a>
+                  </p>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="content">
+                <img src="/images/platform-engineering.png" className="service-images" width="70px" /> 
+                <p></p>
+                <h4 className="title text-lg-center text-on-dark-bg">Platform Engineering</h4>
+                  <p className='white'>We build custom platforms and frameworks based on the business use cases and 
+                  aligned to your needs of availability, resilience and budget.
+                  ...<a href="\platform" className="title text-lg-center text-on-dark-bg">Know More</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>  
+        <section className="difficult row" id="difficult">
+          <div className="container text-center pb-5">
+            <h2 className="blue-underline-heading">Are you facing difficulty in building your DevOps capability?</h2> 
+            <img src="/images/Observe.gif" className="img-fluid" />           
+            <div className="row py-2">
+              <div class="col-lg-1">              
               </div>
               <div class="col-lg-10">
                 <p>We are continuous experimenters in DevSecOps transformations. Having successfully
@@ -79,10 +155,10 @@ export default function Home() {
         </section>
         <section className="about-us-area row bg-black style-two pb-5" id="about">
           <div className="container text-center">
-            <h2 className="blue-underline-heading text-on-dark-bg">Let us help with your Cloud Journey</h2>
+            <h2 className="white-underline-heading text-on-dark-bg">DevOps Offerings</h2>            
             <div className="row py-4">
               <div className="col-7 center-image">
-                <img src="/images/icon-1.png" className="service-images" width="150px" />
+                <img src="/images/CICD.png" className="rounded"/>
               </div>
               <div className="col-5">
                 <div className="content">
@@ -115,12 +191,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-7 center-image">
-                <img src="/images/icon-2.png" className="service-images" width="150px" />
+                <img src="/images/kubernetes.png" className="rounded"/>
               </div>
             </div>
             <div className="row py-4">
               <div className="col-7 center-image">
-                <img src="/images/icon-1.png" className="service-images" width="150px" />
+                <img src="/images/Observability.png" className="rounded"/>
               </div>
               <div className="col-5">
                 <div className="content">
@@ -149,12 +225,13 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-7 center-image">
-                <img src="/images/icon-2.png" className="service-images" width="150px" />
+                <img src="/images/security.png" className="rounded"/>
               </div>
             </div>
           </div>
         </section>
-        {/*<section className="how-it-work-area" id="approach">
+        {/*Older section of how it works */}
+        <section className="how-it-work-area" id="approach">
           <div className="shape-1">
             <img src="/images/shape/08.png" alt="" />
           </div>
@@ -172,7 +249,7 @@ export default function Home() {
               <div className="col-lg-10">
                 <div className="section-title">
                   <span className="subtitle">Working Process</span>
-                  <h2 className="main-heading">How it works?</h2>
+                  <h2 className="blue-main-heading">How it works?</h2>
                   <p>
                     We have crafted the process to ensure there is clear delivery
                     principles followed
@@ -366,10 +443,19 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>*/}
+        </section>
+         {/*Call to action Section*/}
+        <section className="about-us-area row bg-black style-two pb-5" id="about">
+        <div className="container text-center">
+            <h2 className="white-underline-heading text-on-dark-bg">Would like to Explore more</h2>
+              <br></br>
+              <a href="\contact" className="btn btn-primary">Contact Us</a>
+        </div>
+       </section>
+       {/*Client Section*/}
         <section className="partners" id="partners">
           <div className="container text-center pb-5">
-            <h2 className="blue-underline-heading">Our Partners</h2>
+            <h2 className="blue-underline-heading">We Serve</h2>
             <div className="row py-2">
               <div class="col-lg-3">
                 <div class="col-12 py-4">

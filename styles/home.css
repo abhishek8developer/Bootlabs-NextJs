@@ -13,7 +13,8 @@ section#home.header-area.header-bg {
 }
 
 section#home.header-area .header-inner p {
-    color: #fff;
+    color: #020b8a;    
+
 }
 
 section#home.header-area.header-bg .header-right-image {
@@ -50,7 +51,7 @@ section#difficult {
 }
 
 .about-us-area .service-images {
-    width: 150px;
+    width: 0 auto;
     margin: 0 auto;
 }
 
@@ -62,7 +63,7 @@ section#difficult {
     text-align: left;
 }
 .about-us-area .content p {
-    text-align: justify;
+    text-align: left;
 }
 
 .feature-list.style-03 {

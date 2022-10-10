@@ -44,7 +44,7 @@ export default function Contact (){
                     <div className="col-lg">
                         <div className="Form-header-inner text-center"> 
                             <h2 className="blue-underline-heading wow fadeInDown">Have a question or want to know more about us?</h2>
-                            <h2 className="main-heading wow fadeInDown">Get in touch</h2>
+                            <h2 className="blue-underline-heading wow fadeInDown">Get in touch</h2>
                         </div>
                     </div>
                     <div className="Form-container">

@@ -19,28 +19,27 @@ export default function Home() {
                         </div>
                         <div className="col-lg-2">
                             <div className="footer-widget about_widget">
+                                <h3 className="quicklink-header">Product</h3>
+                                <ul className="footer-nav">
+                                    <li><a href="/product" className="quicklink">Sailor</a></li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-2">
+                            <div className="footer-widget about_widget">
                                 <h3 className="quicklink-header">Company</h3>
                                 <ul className="footer-nav">
-                                    <li><a href="/product" className="quicklink">Sailor</a></li>
+                                    <li><a href="/about" className="quicklink">About Us</a></li>
+                                    <li><a href="/contact" className="quicklink">Blogs</a></li>
+                                    <li><a href="/solutions" className="quicklink">Services</a></li>
                                     <li><a href="/team" className="quicklink">Team</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-2">
                             <div className="footer-widget about_widget">
-                                <h3 className="quicklink-header">Company</h3>
-                                <ul className="footer-nav">
-                                    <li><a href="/product" className="quicklink">Sailor</a></li>
-                                    <li><a href="/contact" className="quicklink">Blogs</a></li>
-                                    <li><a href="/solutions" className="quicklink">Solutions</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-2">
-                            <div className="footer-widget about_widget">
-                                <h3 className="quicklink-header" >Quick links</h3>
-                                <ul className="footer-nav">
-                                    <li><a href="/about" className="quicklink">About Us</a></li>
+                                <h3 className="quicklink-header" >More...</h3>
+                                <ul className="footer-nav">                                    
                                     <li><a href="/policies" className="quicklink">Terms of Service</a></li>
                                     <li><a href="/policies" className="quicklink">Privacy Policies</a></li>
                                     <li><a href="/contact" className="quicklink">Support</a></li>
