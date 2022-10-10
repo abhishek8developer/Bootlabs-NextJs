@@ -7,7 +7,7 @@ export default function Solutions() {
             <Header />
             <section class="solution-area style-two" id="solutions">
                 <div class="container">
-                    <h2 className="blue-underline-heading">Let us help with your Cloud Journey</h2>
+                    <h2 className="blue-underline-heading">Let us help you with your Cloud Journey</h2>
                     <div class="row">
                         <ul class="feature-list style-03">
                             <li class="single-feature-list wow zoomIn">
@@ -58,7 +58,7 @@ export default function Solutions() {
                 <div class="container pt-5">
                     <div className="section-title">
                         <span className="subtitle">ARE YOU STRUGGLING WITH</span>
-                        <h2 className="main-heading">Building DevOps Capability?</h2>
+                        <h2 className="blue-underline-heading">Building DevOps Capability?</h2>
                         <p>Improving speed to market or operational agility?</p>
                         <br/>
                         <p>We are continuous experimenters in DevSecOps transformations. Having successfully transformed large digital platforms across various industries including Automotive, BFSI & Retail, e-commerce, our motto is to engineer a seamless digital fluency to your business. Powered by DevSecOps tools of your choice, this package delivers in just 3-6months, your automation needs. For beginners, intermediates and advanced SaaS organizations.</p>

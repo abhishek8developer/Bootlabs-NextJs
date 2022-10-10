@@ -67,30 +67,30 @@ export default function Header() {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/about">About us</a>
-              </li>
-              <li>
                 <div className="dropdown">
                   <a href="/solutions" className="dropbtn">
-                    Solutions
+                    Services
                   </a>
-                  {/* <div className="solution-drop-content">
-                    <a href="/solutions">Services</a>
-                    <a href="/products">Products</a>
-                  </div> */}
+                  <div className="solution-drop-content">
+                    {/*<a href="/solutions">Solutions</a>*/}
+                    <a href="/360Ops">360&deg; Ops</a>
+                    <a href="/consulting">Cloud Consulting</a>
+                    <a href="/platform">Platform Engineering</a>
+                    <a href="/transform">Digital Transformation</a>
+                  </div> 
                 </div>
               </li>
               <li>
                 <a href="/products">Products</a>
               </li>
               <li>
+                <a href="/promotion">Promotions</a>
+              </li>
+              <li>
                 <a href="/career">Career</a>
               </li>
               <li>
                 <a href="/contact">Contact us</a>
-              </li>
-              <li>
-                <a href="/blog">Blog</a>
               </li>
               {/* <input type="text" placeholder="Search.." /> */}
             </ul>

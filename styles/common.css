@@ -1,5 +1,5 @@
 body, p, span {
-    color: #727272;
+    color: #1c144e;
 }
 
 body.white, p.white, span.white {
@@ -26,6 +26,25 @@ h2.blue-underline-heading {
     color: #020b8a;
 }
 
+h2.white-underline-heading {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    margin: 4vw 0;
+    display: inline-flex;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+h2.white-underline-heading:after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    background-color: #ffffff;
+    left: 50%;
+    bottom: -7px;
+    transform: translateX(-50%);
+}
 h2.blue-underline-heading:after {
     content: '';
     position: absolute;
@@ -41,10 +60,13 @@ h2.main-heading {
     font-size: 2.25vw;
     line-height: 5vw;
     margin: 2vw 0;
-    color: #020b8a;
-}
-h2.main-heading.white {
     color: #fff;
+}
+h2.main-heading.blue {
+    font-size: 2.25vw;
+    line-height: 5vw;
+    margin: 2vw 0;
+    color: #020b8a;
 }
 @media screen and (max-width: 575px) {
     h2.main-heading {
