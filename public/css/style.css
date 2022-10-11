@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"');
 /*
     Css Table of Content
     --------------------------
@@ -1483,11 +1484,13 @@ select:focus {
 
 .navbar-area.white .nav-container .navbar-collapse .navbar-nav li a {
     color: #020b8a;    
+    padding: 7px 15px;
+    border-radius: 3px;
 }
 
 .navbar-area.white .nav-container .navbar-collapse .navbar-nav li a:hover {
-    color: #020b8a;    
-
+  background: #cecece;
+  transition: 1s ease;
 }
 
 .navbar-area .nav-container .nav-right-content ul {

@@ -5,8 +5,7 @@ export default function operations() {
   return (
     <>
       <Header />
-      <section className="header-area header-bg" id="product"></section>
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ paddingTop: '4vw' }}>
          <section className="difficult row" id="difficult">
           <div className="container text-lg-left pb-5">
             <h2 className="blue-underline-heading">360&deg; Ops</h2>
@@ -49,13 +48,18 @@ export default function operations() {
             <div className="row py-4">                         
               <div className="col-4">
                 <div className="content">
-                <img src="/images/360services-build.png" className="service-images" width="100px" />   
-                <p></p>
-                <h4 className="title text-lg-center text-on-dark-bg">Build</h4>
-                  <p className='white'>
-                  Custom build, configuration, and deployment to meet client requirement.
-                  Incorporate Cloud best practices and leveraging Automation library &amp; Templates
-                  </p>
+                  <div className='row'>
+                    <div className="col-2">
+                      <img src="/images/360services-build.png" className="service-images" width="100px" />   
+                    </div>
+                    <div className="col-10">
+                      <h4 className="title text-on-dark-bg">Build</h4>
+                      <p className='white'>
+                      Custom build, configuration, and deployment to meet client requirement.
+                      Incorporate Cloud best practices and leveraging Automation library &amp; Templates
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col-4">
@@ -84,10 +88,10 @@ export default function operations() {
           </div>
         </section>        
        </div>
-       <section className="header-area header-bg" id="product">
+       <section className="header-area header-bg" id="product" style={{ marginTop: 0 }}>
        <h2 className="blue-underline-heading text-on-dark-bg">Would like to Explore more</h2>
        <br></br>
-       <a href="\contact" className="btn btn-primary">Contact Us</a>
+       <a href="\contact" className="btn btn-primary" style={{ padding: '9px 40px' }}>Contact Us</a>
        </section>
 
       <Footer />
