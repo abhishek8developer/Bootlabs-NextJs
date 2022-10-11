@@ -5,9 +5,8 @@ export default function platform() {
   return (
     <>
       <Header />
-      <section className="header-area header-bg" id="product"></section>
-      <div className="container-fluid">
-         <section className="difficult row" id="difficult">
+        <div className="container-fluid" style={{ paddingTop: '4vw' }}>
+        <section className="row" id="platform">
           <div className="container text-lg-left pb-5">
             <h2 className="blue-underline-heading">Platform Engineering</h2>
             <div className="row py-2">
@@ -89,11 +88,12 @@ We help you run the show fast with Day0, Day1 and Day2 readiness on any of your 
           </div>
         </section>        
        </div>
-       <section className="header-area header-bg" id="product">
-       <h2 className="blue-underline-heading text-on-dark-bg">Would like to Explore more</h2>
+       <div className="container text-lg-center pb-5d">       
+       <h2 className="blue-underline-heading">Would like to Explore more</h2>
        <br></br>
-       <a href="\contact" className="btn btn-primary">Contact Us</a>
-       </section>
+       <a href="\contact" className="btn btn-primary" style={{ padding: '9px 40px' }}>Contact Us</a>  
+       <p></p>
+       </div>
       <Footer />
     </>
   );
