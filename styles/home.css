@@ -63,7 +63,7 @@ section#difficult {
     text-align: left;
 }
 .about-us-area .content p {
-    text-align: left;
+    text-align: justify;
 }
 
 .feature-list.style-03 {
@@ -158,7 +158,7 @@ section#difficult {
 }
 
 #partners img {
-    height: 200px;
+    height: 100px;
 }
 
 #difficult img {

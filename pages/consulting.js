@@ -5,9 +5,8 @@ export default function consulting() {
   return (
     <>
       <Header />
-      <section className="header-area header-bg" id="product"></section>
-      <div className="container-fluid">
-         <section className="difficult row" id="difficult">
+      <div className="container-fluid" style={{ paddingTop: '4vw' }}>
+      <section className="row" id="consulting">
           <div className="container text-lg-left pb-5">
             <h2 className="blue-underline-heading">Cloud Consulting</h2>
             <div className="row py-2">
@@ -39,7 +38,7 @@ export default function consulting() {
               </div>
             </div>
           </section>
-        <section className="about-us-area row bg-black style-two pb-5" id="about">
+        <section className="about-us-area row bg-black style-two pb-5" id="consulting">
           <div className="container text-center">
             <h2 className="white-underline-heading text-on-dark-bg">We help you get the best of cloud</h2>
             <div className="container-fluid">
@@ -87,11 +86,12 @@ export default function consulting() {
           </div>
         </section>        
        </div>
-       <section className="header-area header-bg" id="product">
-       <h2 className="blue-underline-heading text-on-dark-bg">Would like to Explore more</h2>
+       <div className="container text-lg-center pb-5d">       
+       <h2 className="blue-underline-heading">Would like to Explore more</h2>
        <br></br>
-       <a href="\contact" className="btn btn-primary">Contact Us</a>
-       </section>
+       <a href="\contact" className="btn btn-primary" style={{ padding: '9px 40px' }}>Contact Us</a>  
+       <p></p>
+       </div>
       <Footer />
     </>
   );

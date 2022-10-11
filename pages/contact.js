@@ -65,6 +65,16 @@ export default function Contact (){
                             <button type="submit" onClick={fireEmail}>Send</button>
                         </form>
                     </div>
+                    <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4528.7640463729595!2d77.69792067498804!3d12.956465421261656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13b0fb0b9ea7%3A0xcd5c8a1ebc0498!2sNovel%20Office%20Marathahalli!5e0!3m2!1sen!2sin!4v1665428773662!5m2!1sen!2sin"
+                                    width="340"
+                                    height="200"
+                                    style={{ border: 0, position: 'absolute', right: 0 }}
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                >
+                                </iframe> 
                 </div>
             </section>
             <Footer />

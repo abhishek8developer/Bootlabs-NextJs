@@ -6,7 +6,7 @@ export default function operations() {
     <>
       <Header />
       <div className="container-fluid" style={{ paddingTop: '4vw' }}>
-         <section className="difficult row" id="difficult">
+         <section className="row" id="Ops">
           <div className="container text-lg-left pb-5">
             <h2 className="blue-underline-heading">360&deg; Ops</h2>
             <div className="row py-2">
@@ -41,7 +41,7 @@ export default function operations() {
               </div>
             </div>
           </section>
-        <section className="about-us-area row bg-black style-two pb-5" id="about">
+        <section className="about-us-area row bg-black image-design style-two pb-5" id="Ops">
           <div className="container text-center">
             <h2 className="white-underline-heading text-on-dark-bg">We monitor, manage,optimise and everything in Cloud</h2>
             <div className="container-fluid">
@@ -50,7 +50,7 @@ export default function operations() {
                 <div className="content">
                   <div className='row'>
                     <div className="col-2">
-                      <img src="/images/360services-build.png" className="service-images" width="100px" />   
+                      <img src="/images/360services-build.png"/>
                     </div>
                     <div className="col-10">
                       <h4 className="title text-on-dark-bg">Build</h4>
@@ -64,23 +64,32 @@ export default function operations() {
               </div>
               <div className="col-4">
                 <div className="content">
-                <img src="/images/360services-manage.png" className="service-images" width="100px" />   
-                <p></p>
-                <h4 className="title text-lg-center text-on-dark-bg">Manage</h4>
-                  <p className='white'>
-                  Customization to meet enterprise-grade security services delivered using
-                  cloud platform and support processes
-                  </p>
+                <div className='row'>
+                    <div className="col-2">
+                      <img src="/images/360services-manage.png" />   
+                    </div>
+                    <div className="col-10">
+                      <h4 className="title text-on-dark-bg">Manage</h4>
+                      <p className='white'>
+                      Customization to meet enterprise-grade security services delivered using cloud platform and support processes
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col-4">
                 <div className="content">
-                <img src="/images/360services-operate.png" className="service-images" width="100px" />
-                <p></p>
-                <h4 className="title text-lg-center text-on-dark-bg">Operate</h4>
-                  <p className='white'>
-                  Support and incident remediation from best-in-class talents
-                  </p>
+                <div className='row'>
+                    <div className="col-2">
+                      <img src="images/360services-operate.png" />   
+                    </div>
+                    <div className="col-10">
+                      <h4 className="title text-on-dark-bg">Operate</h4>
+                      <p className='white'>
+                      Support and incident remediation from best-in-class talents
+                      </p>
+                    </div>
+                  </div>               
                 </div>
               </div>
             </div>
@@ -88,13 +97,13 @@ export default function operations() {
           </div>
         </section>        
        </div>
-       <section className="header-area header-bg" id="product" style={{ marginTop: 0 }}>
-       <h2 className="blue-underline-heading text-on-dark-bg">Would like to Explore more</h2>
+       <div className="container text-lg-center pb-5d">       
+       <h2 className="blue-underline-heading">Would like to Explore more</h2>
        <br></br>
-       <a href="\contact" className="btn btn-primary" style={{ padding: '9px 40px' }}>Contact Us</a>
-       </section>
-
-      <Footer />
+       <a href="\contact" className="btn btn-primary" style={{ padding: '9px 40px' }}>Contact Us</a>  
+       <p></p>
+       </div>
+      <Footer/>
     </>
   );
 }

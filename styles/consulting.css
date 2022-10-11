@@ -1,0 +1,57 @@
+section#consulting {
+    padding: 20px 0;
+    background: #f6f7fd;
+}
+#consulting.header-area {
+    text-align: center;
+}
+#consulting .image-frame {
+    position: relative;
+    background: #8c43ee;
+    background: url('/images/bg/pricing_plan.jpg') center center no-repeat ;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 10px 30px;
+}
+#consulting .image-frame .image-scroller {
+    width: 100%;
+    overflow: auto;
+    height: 50vw;
+}
+#consulting .image-frame a {
+    cursor: pointer;
+}
+#consulting .image-frame .link {
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    right: 55px;
+    bottom: 60px;
+    cursor: pointer;
+    position: absolute;
+    filter: blur(25px);
+    transition: .6s ease;
+}
+#consulting .image-frame:hover .link {
+    transition: .6s ease;
+    filter: blur(0px);
+    opacity: 1;
+} 
+#consulting.difficulty img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 510px) {
+    #consulting h1 {
+        font-size: 10vw;
+    }
+    #consulting h1:after {
+        width: 5vw;
+    }
+}
+
+#consulting .header-bg {
+    background-image: url('/images/about_us.jpg');
+    background-size: cover;
+    background-position: bottom center;
+}

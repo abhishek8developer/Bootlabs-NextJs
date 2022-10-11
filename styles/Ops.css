@@ -1,0 +1,144 @@
+section#Ops.header-area {
+    background: linear-gradient(0deg, #fff, #057);
+}
+
+section#Ops.header-area.header-bg {
+    min-height: 70vh;
+    padding: 25vh 0 0 0;
+}
+
+section#Ops.header-area .header-inner p {
+    color: #020b8a;    
+
+}
+
+section#Ops.header-area.header-bg .header-right-image {
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    width: 35vw;
+}
+
+section#Ops h2.main-heading {
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+    margin: 2vw 0;
+}
+
+section#Ops.header-area .header-right-image img {
+    height: 100%;
+    width: auto;
+}
+
+section#Ops.image-design {
+    max-width: 150%;
+  }
+
+section#Ops .main-heading, section#approach .main-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section#difficult {
+    background: linear-gradient(180deg, #fff 50%, #057 325%)
+}
+
+.about-us-area .center-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-area .service-images {
+    width: 0 auto;
+    margin: 0 auto;
+}
+
+.about-us-area .content {
+    width: 325px;
+}
+
+.about-us-area .content .title {
+    text-align: left;
+}
+.about-us-area .content p {
+    text-align: left;
+}
+
+#Ops.difficulty img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#Ops.about .content {
+    margin: 4vw;
+}
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+    .header-area .header-right-image {
+        right: 0%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-area .header-right-image {
+        right: -15%;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    .header-area .header-right-image {
+        display: none;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-area .header-right-image {
+        display: none;
+    }
+
+    .feature-list.style-03 {
+        justify-content: center;
+    }
+
+    .feature-list.style-03 li {
+        width: 95%;
+    }
+
+    .feature-list.style-03 li .content p {
+        min-height: 100px;
+    }
+
+    .how-it-work-tab-nav .nav-tabs .nav-item {
+        border-right: none;
+        width: 33.33%;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .about-us-area.style-two .feature-list .single-feature-list {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    .how-it-work-tab-nav {
+        margin: 40px -15px;
+    }    
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .how-it-work-tab-nav .nav-tabs .nav-item .nav-link i {
+        font-size: 20px;
+    }
+}

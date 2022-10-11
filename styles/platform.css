@@ -1,0 +1,51 @@
+section#platform {
+    padding: 20px 0;
+    background: #f6f7fd;
+}
+#platform.header-area {
+    text-align: center;
+}
+#platform .image-frame {
+    position: relative;
+    background: #8c43ee;
+    background: url('/images/bg/pricing_plan.jpg') center center no-repeat ;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 10px 30px;
+}
+#platform .image-frame .image-scroller {
+    width: 100%;
+    overflow: auto;
+    height: 50vw;
+}
+#platform .image-frame a {
+    cursor: pointer;
+}
+#platform .image-frame .link {
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    right: 55px;
+    bottom: 60px;
+    cursor: pointer;
+    position: absolute;
+    filter: blur(25px);
+    transition: .6s ease;
+}
+#platform .image-frame:hover .link {
+    transition: .6s ease;
+    filter: blur(0px);
+    opacity: 1;
+} 
+#platform.difficulty img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 510px) {
+    #platform h1 {
+        font-size: 10vw;
+    }
+    #platform h1:after {
+        width: 5vw;
+    }
+}

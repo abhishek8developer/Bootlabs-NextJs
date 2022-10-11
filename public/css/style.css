@@ -1484,8 +1484,8 @@ select:focus {
 
 .navbar-area.white .nav-container .navbar-collapse .navbar-nav li a {
     color: #020b8a;    
-    padding: 7px 15px;
-    border-radius: 3px;
+    padding: 7px 5px;
+    border-radius: 5px;
 }
 
 .navbar-area.white .nav-container .navbar-collapse .navbar-nav li a:hover {
@@ -1532,7 +1532,7 @@ select:focus {
 .navbar-area .nav-container .navbar-collapse .navbar-nav li {
   display: inline-block;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 80px;
 }
 
