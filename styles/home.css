@@ -157,6 +157,18 @@ section#difficult {
     color: #fff;
 }
 
+#partners img {
+    height: 200px;
+}
+
+#difficult img {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+#about .content {
+    margin: 4vw;
+}
 @media only screen and (min-width: 1201px) and (max-width: 1366px) {
     .header-area .header-right-image {
         right: 0%;

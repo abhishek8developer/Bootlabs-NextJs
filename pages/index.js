@@ -157,7 +157,7 @@ export default function Home() {
           <div className="container text-center">
             <h2 className="white-underline-heading text-on-dark-bg">DevOps Offerings</h2>            
             <div className="row py-4">
-              <div className="col-7 center-image">
+              <div className="col-6">
                 <img src="/images/CICD.png" className="rounded"/>
               </div>
               <div className="col-5">

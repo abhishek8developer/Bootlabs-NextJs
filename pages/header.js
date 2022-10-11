@@ -68,7 +68,7 @@ export default function Header() {
               </li>
               <li>
                 <div className="dropdown">
-                  <a href="/solutions" className="dropbtn">
+                  <a href="" onClick={e => e.preventDefault()} className="dropbtn">
                     Services
                   </a>
                   <div className="solution-drop-content">
