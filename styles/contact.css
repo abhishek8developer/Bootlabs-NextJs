@@ -1,5 +1,6 @@
 section#contactus {
     padding: 4vh 2vw;
+    background: linear-gradient(0deg, #fff, #057);
 }
 #contactus .Form-container {
     width: 90%;
