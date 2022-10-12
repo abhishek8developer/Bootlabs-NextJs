@@ -4,6 +4,7 @@ section#promotion {
 }
 #promotion.header-area {
     text-align: center;
+    background: linear-gradient(0deg, #fff, #057);
 }
 #promotion .image-frame {
     position: relative;
@@ -12,6 +13,9 @@ section#promotion {
     border-radius: 15px;
     padding: 50px;
     margin: 10px 30px;
+}
+#promotion img.service-image {
+    width: 50%;
 }
 #promotion .image-frame .image-scroller {
     width: 100%;
