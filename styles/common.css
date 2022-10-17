@@ -45,6 +45,18 @@ h2.white-underline-heading:after {
     bottom: -7px;
     transform: translateX(-50%);
 }
+@media screen and (max-width: 768px) {
+    h2.blue-underline-heading {
+        font-size: 5vw;
+        line-height: 7vw;
+        margin: 7vw 0;
+    }
+    h2.white-underline-heading {
+        font-size: 5vw;
+        line-height: 7vw;
+        margin: 7vw 0;
+    }
+}
 h2.blue-underline-heading:after {
     content: '';
     position: absolute;
@@ -68,7 +80,7 @@ h2.main-heading.blue {
     margin: 2vw 0;
     color: #020b8a;
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
     h2.main-heading {
         font-size: 5vw;
         line-height: 7vw;

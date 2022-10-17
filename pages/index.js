@@ -2,6 +2,10 @@ import Image from "next/image";
 import Header from "./header";
 import Footer from "./footer";
 
+const GCPImage = () => (
+  <img src="data:image/png;base64,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" alt="GCP" />
+)
+
 export default function Home() {
   return (
     <>
@@ -44,10 +48,10 @@ export default function Home() {
           <div class="container text-center">
             <h2 className="white-underline-heading">Proud Partners</h2>
             <div class="row">
-            <div class="col-md-2 col-6">
+            <div class="col-md-2 col-xs-0">
               </div>
               <div class="col-md-2 col-6">
-                <img src="images/aws.svg" alt="AWS" />
+                <img src="images/brand-logos/aws.png" alt="AWS" />
               </div>
               <div class="col-md-2 col-6">
                 <img src="images/Spot.png" alt="Spot.io" />
@@ -56,7 +60,7 @@ export default function Home() {
                 <img src="images/Ingram.png" alt="Ingram" />
               </div>
               <div class="col-md-2 col-6">
-                <img src="images/gcp.svg" alt="GCP" />
+                <GCPImage />
               </div>
             </div>
           </div>
@@ -100,7 +104,7 @@ export default function Home() {
             </h2>
             <div className="container-fluid">
               <div className="row py-4">
-                <div className="col-6">
+                <div className="col-md-6">
                   <div className="content">
                     <img
                       src="/images/cloud-consulting.png"
@@ -126,7 +130,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                   <div className="content">
                     <img
                       src="/images/360-degrees.png"
@@ -153,7 +157,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="row py-4">
-                <div className="col-6">
+                <div className="col-md-6">
                   <div className="content">
                     <img
                       src="/images/cloud-digital-transformation.png"
@@ -177,7 +181,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                   <div className="content">
                     <img
                       src="/images/platform-engineering.png"
@@ -238,10 +242,10 @@ export default function Home() {
               DevOps Offerings
             </h2>
             <div className="row py-4">
-              <div className="col-6">
+              <div className="col-md-6">
                 <img src="/images/CICD.png" className="rounded" />
               </div>
-              <div className="col-6"
+              <div className="col-md-6"
               style={{ textAlign: "right" }}
               >
                 <div className="content">
@@ -259,7 +263,7 @@ export default function Home() {
               </div>
             </div>
             <div className="row py-4">
-              <div className="col-5">
+              <div className="col-md-5">
                 <div className="content">
                   <h4 className="title text-on-dark-bg">
                     Kubernetes Enablement
@@ -273,15 +277,15 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-7 center-image">
+              <div className="col-md-7 center-image">
                 <img src="/images/kubernetes.png" className="rounded" />
               </div>
             </div>
             <div className="row py-4">
-              <div className="col-7 center-image">
+              <div className="col-md-7 center-image">
                 <img src="/images/Observability.png" className="rounded" />
               </div>
-              <div className="col-5">
+              <div className="col-md-5">
                 <div className="content">
                   <h4 className="title text-on-dark-bg">
                     Observability and Monitoring
@@ -297,7 +301,7 @@ export default function Home() {
               </div>
             </div>
             <div className="row py-4">
-              <div className="col-5">
+              <div className="col-md-5">
                 <div className="content">
                   <h4 className="title text-on-dark-bg">Security</h4>
                   <p className="white">
@@ -308,7 +312,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-7 center-image">
+              <div className="col-md-7 center-image">
                 <img src="/images/security.png" className="rounded" />
               </div>
             </div>
@@ -544,51 +548,35 @@ export default function Home() {
           </div>
         </section>
         {/*Client Section*/}
-        <section className="partners" id="partners">
+        <section className="partners" id="clients">
           <div className="container text-center pb-5">
             <h2 className="blue-underline-heading">We Serve</h2>
             <div className="row py-2">
-              <div class="col-lg-3">
-                <div class="col-12 py-4">
+              <div class="col-lg-3 col-md-6">
                   <img src="images/falabella.svg" class="object-cover" />
-                </div>
               </div>
-              <div class="col-lg-3">
-                <div class="col-12 py-4">
+              <div class="col-lg-3 col-md-6">
                   <img src="images/mahindra_logo.svg" class="object-cover" />
-                </div>
               </div>
-              <div class="col-lg-3">
-                <div class="col-12 py-4">
+              <div class="col-lg-3 col-md-6">
                   <img src="images/deserve.svg" class="object-cover" />
-                </div>
               </div>
-              <div class="col-lg-3">
-                <div class="col-12 py-4">
+              <div class="col-lg-3 col-md-6">
                   <img src="images/ola.svg" class="object-cover" />
-                </div>
               </div>
             </div>
             <div className="row py-2">
-              <div class="col-lg-3">
-                <div class="col-12 py-4">
+              <div class="col-lg-3 col-md-6">
                   <img src="images/crisil.png" class="object-cover" />
-                </div>
               </div>
-              <div class="col-lg-3">
-                <div class="col-12 py-4">
+              <div class="col-lg-3 col-md-6">
                   <img src="images/astraZeneca.svg" class="object-cover" />
-                </div>
               </div>
-              <div class="col-lg-3">
-                <div class="col-12 py-4">
+              <div class="col-lg-3 col-md-6">
                   <img src="images/thoughtworks.svg" class="object-cover" />
-                </div>
               </div>
-              <div class="col-lg-3">
-                <div class="col-12 py-4">
+              <div class="col-lg-3 col-md-6">
                   <img src="images/bewakoof.svg" class="object-cover" />
-                </div>
               </div>
             </div>
           </div>

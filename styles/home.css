@@ -28,6 +28,13 @@ section#home h2.main-heading {
   line-height: 3.5vw;
   margin: 2vw 0;
 }
+@media screen and (max-width: 768px) {
+  section#home h2.main-heading {
+      font-size: 5vw;
+      line-height: 7vw;
+      margin-bottom: 7vw;
+  }
+}
 
 section#home.header-area .header-right-image img {
   height: 100%;
@@ -53,10 +60,6 @@ section#difficult {
 .about-us-area .service-images {
   width: 0 auto;
   margin: 0 auto;
-}
-
-.about-us-area .content {
-  width: 325px;
 }
 
 .about-us-area .content .title {
@@ -159,6 +162,18 @@ section#difficult {
 
 #partners img {
   height: 100px;
+  margin: 4vmax auto;
+  border-radius: 5px;
+}
+#clients img {
+  width: 200px;
+  margin: 4vmax auto;
+}
+@media screen and (max-width: 768) {
+  #partners img {
+    width: 100px;
+    margin: 4vmax auto;
+  } 
 }
 
 #difficult img {
@@ -168,6 +183,7 @@ section#difficult {
 
 #cloudOfferings .content {
     margin: 0 auto;
+    max-width: 350px;
 }
 
 #devopsOfferings .content {
