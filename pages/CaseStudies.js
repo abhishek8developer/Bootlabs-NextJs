@@ -33,8 +33,8 @@ export default function CaseStudies() {
             </div>
             <div className="row text-center">
               <div className="col-lg-12" style={{ margin: '0 auto' }}>
-                <img src="images/slide1.jpg" className="service-image" />
-                <img src="images/slide2.jpg" className="service-image" />
+                <img src="images/Slide1.JPG" className="service-image" />
+                <img src="images/Slide2.JPG" className="service-image" />
               </div>
             </div>
           </div>
@@ -48,8 +48,8 @@ export default function CaseStudies() {
             </div>
             <div className="row text-center">
               <div className="col-lg-12" style={{ margin: '0 auto' }}>
-                <img src="images/slide3.jpg" className="service-image" />
-                <img src="images/slide4.jpg" className="service-image" />
+                <img src="images/Slide3.JPG" className="service-image" />
+                <img src="images/Slide4.JPG" className="service-image" />
               </div>
             </div>
           </div>
@@ -63,8 +63,8 @@ export default function CaseStudies() {
             </div>
             <div className="row text-center">
               <div className="col-lg-12" style={{ margin: '0 auto' }}>
-                <img src="images/slide5.jpg" className="service-image" />
-                <img src="images/slide6.jpg" className="service-image" />
+                <img src="images/Slide5.JPG" className="service-image" />
+                <img src="images/Slide6.JPG" className="service-image" />
               </div>
             </div>
           </div>
