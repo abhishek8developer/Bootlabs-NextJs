@@ -1,12 +1,12 @@
 import Header from './header'
 import Footer from './footer'
 
-export default function operations() {
+export default function Product() {
   return (
     <>
       <Header />
       <div className="container-fluid" style={{ paddingTop: '4vw' }}>
-         <section className="row" id="Ops">
+         <section className="row" id="product">
           <div className="container text-lg-left pb-5">
             <h2 className="blue-underline-heading">Case Studies</h2>
             <div className="row py-2">
