@@ -543,7 +543,7 @@ export default function Home() {
             </h2>
             <br></br>
             <a href="\contact" className="btn btn-primary">
-            Get in Touch
+              Get in Touch
             </a>
           </div>
         </section>
