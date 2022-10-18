@@ -20,18 +20,18 @@ export default function operations() {
                   </div>                  
                   <div className="col-lg-4-6">
                   <h2 className="blue-underline-heading">Migration from Azure to GCP</h2>
-                  <img src="/images/Cases/Slide1.jpg" className="img-fluid" />
-                  <img src="/images/Cases/Slide2.jpg" className="img-fluid" />
+                  <img src="/images/Slide1.jpg" className="img-fluid" />
+                  <img src="/images/Slide2.jpg" className="img-fluid" />
                   </div>
                   <div className="col-lg-4-6">
                   <h2 className="blue-underline-heading">Resilience in the Code</h2>
-                  <img src="/images/Cases/Slide3.jpg" className="img-fluid" />
-                  <img src="/images/Cases/Slide4.jpg" className="img-fluid" />
+                  <img src="/images/Slide3.jpg" className="img-fluid" />
+                  <img src="/images/Slide4.jpg" className="img-fluid" />
                   </div>
                   <div className="col-lg-4-6">
                   <h2 className="blue-underline-heading">Deployment in GCP</h2>
-                  <img src="/images/Cases/Slide5.jpg" className="img-fluid" />
-                  <img src="/images/Cases/Slide6.jpg" className="img-fluid" />
+                  <img src="/images/Slide5.jpg" className="img-fluid" />
+                  <img src="/images/Slide6.jpg" className="img-fluid" />
                   </div>
                   </div>
                 </div>
