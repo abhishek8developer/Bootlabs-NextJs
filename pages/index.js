@@ -539,11 +539,11 @@ export default function Home() {
         >
           <div className="container text-center">
             <h2 className="white-underline-heading text-on-dark-bg">
-              Would like to Explore more
+              Would you like to Explore more?
             </h2>
             <br></br>
             <a href="\contact" className="btn btn-primary">
-              Contact Us
+            Get in Touch
             </a>
           </div>
         </section>
