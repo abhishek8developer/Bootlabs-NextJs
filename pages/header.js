@@ -87,6 +87,9 @@ export default function Header() {
                 <a href="/promotion">Promotions</a>
               </li>
               <li>
+                <a href="/CaseStudies">Case Studies</a>
+              </li>
+              <li>
                 <a href="/career">Career</a>
               </li>
               <li>
