@@ -53,14 +53,14 @@ export default function Contact() {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center">
-              <h2 className="blue-underline-heading wow fadeInDown">
+              <h2 className="white-underline-heading wow fadeInDown">
                 Have a question or want to know more about us?
               </h2>
             </div>
           </div>
           <div className="row">
             <div className="col-12 text-center">
-              <h2 className="blue-underline-heading wow fadeInDown">
+              <h2 className="white-underline-heading wow fadeInDown">
                 Get in touch
               </h2>
             </div>
