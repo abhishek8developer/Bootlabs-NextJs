@@ -242,12 +242,10 @@ export default function Home() {
               DevOps Offerings
             </h2>
             <div className="row py-4">
-              <div className="col-md-6">
+              <div className="col-md-7">
                 <img src="/images/CICD.png" className="rounded" />
               </div>
-              <div className="col-md-6"
-              style={{ textAlign: "right" }}
-              >
+              <div className="col-md-5" style={{ textAlign: "right" }}>
                 <div className="content">
                   <h4 className="title text-on-dark-bg">
                     Automated Pipeline (CI / CD)
@@ -313,7 +311,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-7 center-image">
-                <img src="/images/security.png" className="rounded" />
+                <img src="/images/Security.png" className="rounded" />
               </div>
             </div>
           </div>
