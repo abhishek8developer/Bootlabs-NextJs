@@ -1,14 +1,17 @@
-// const appPass = 'llswgjakyhnebnax'
 const appPass = 'otgnwwcqxqjmlxpw'
 
+const currentDateTime = () => `${new Date().getDate()} ${
+    new Date().getMonth() + 1} ${
+    new Date().getFullYear()} ${
+    new Date().getHours()}:${
+    new Date().getMinutes()}`
+
 const send = require('gmail-send')({
-    // user: 'abhishek8developer@gmail.com',
-    user: 'mayank@bootslabtech.com',
+    user: 'mayank@bootlabstech.com',
     pass: appPass,
     cc: 'mayank@bootlabstech.com',
     to: 'hello@bootlabstech.com',
-    bcc: 'abhishek8developer@gmail.com',
-    subject: `Query for Bootslabtech at ${new Date().getDate()}-${new Date().getTime()}-${new Date().getDay()}-${new Date().getMonth()}`,
+    subject: `Query for Bootslabtech at ${currentDateTime()}`,
 })
 
 export default async function handler(req, res) {
@@ -17,12 +20,8 @@ export default async function handler(req, res) {
             const { fname, lname, emailId, phone, message } = req.body
             const options = {
                 to: emailId,
-                subject: `Query from ${fname} ${lname} Bootlabstech at ${
-                    new Date().getDate()}-${new Date().getTime()}-${
-                        new Date().getDay()}-${new Date().getMonth()
-                }`,
-                // subject: `${fname} ${lname} has a query from Bootstrap Contact form.`,
-                text: `${message} \n ${fname} ${lname}\nPhone Number: ${phone}`,
+                subject: `Query from ${fname} ${lname} Bootlabstech on ${currentDateTime()}`,
+                text: `${message} \n ${fname} ${lname}\nPhone Number: ${phone}`
             }
             const { result, full } = await send(options);
             res.status(200).end(JSON.stringify({ message: 'Mailed successfully.' }))
