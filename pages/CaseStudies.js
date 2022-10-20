@@ -5,9 +5,9 @@ export default function CaseStudies() {
   return (
     <>
       <Header />
-      <div className="container" style={{ paddingTop: '7vmax' }} id="case-studies">
+      <div  className="container" style={{ paddingTop: '7vmax' }}  id="case-studies">
         <section className="row text-center">
-          <div className="container" style={{ paddingTop: '4vmax' }}>
+          <div className="container" style={{ paddingTop: '4vmax' , background: 'linear-gradient(0deg, #fff, #0124)' }}>
             <div className="row text-center">
               <div className="col-12">
                 <h2 className="blue-underline-heading">Case Studies</h2>
