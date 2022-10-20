@@ -17,7 +17,7 @@ export default function CaseStudies() {
               <div class="col-lg-8" style={{ margin: '0 auto' }}>
                 <p>
                   We had been instrumental in running various workloads on cloud, designing robust pipelines,
-                  and managing humoungius migration activities. In the below case studies we talk about the
+                  and managing humoungous migration activities. In the below case studies we talk about the
                   same. Accelerate your cloud journey by leveraging our end-to-end Cloud managed services.
                 </p>
               </div>
