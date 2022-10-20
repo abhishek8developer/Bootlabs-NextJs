@@ -1,11 +1,14 @@
-const appPass = 'llswgjakyhnebnax'
+// const appPass = 'llswgjakyhnebnax'
+const appPass = 'otgnwwcqxqjmlxpw'
 
 const send = require('gmail-send')({
-    user: 'abhishekmicosoft@gmail.com',
+    // user: 'abhishek8developer@gmail.com',
+    user: 'mayank@bootslabtech.com',
     pass: appPass,
-    // cc: 'sales@bootlabstech.com',
-    to: 'abhishek8developer@gmail.com',
-    subject: 'Test subject',
+    cc: 'mayank@bootlabstech.com',
+    to: 'hello@bootlabstech.com',
+    bcc: 'abhishek8developer@gmail.com',
+    subject: `Query for Bootslabtech at ${new Date().getDate()}-${new Date().getTime()}-${new Date().getDay()}-${new Date().getMonth()}`,
 })
 
 export default async function handler(req, res) {
@@ -14,7 +17,11 @@ export default async function handler(req, res) {
             const { fname, lname, emailId, phone, message } = req.body
             const options = {
                 to: emailId,
-                subject: `${fname} ${lname} has a query from Bootstrap Contact form.`,
+                subject: `Query from ${fname} ${lname} Bootlabstech at ${
+                    new Date().getDate()}-${new Date().getTime()}-${
+                        new Date().getDay()}-${new Date().getMonth()
+                }`,
+                // subject: `${fname} ${lname} has a query from Bootstrap Contact form.`,
                 text: `${message} \n ${fname} ${lname}\nPhone Number: ${phone}`,
             }
             const { result, full } = await send(options);
