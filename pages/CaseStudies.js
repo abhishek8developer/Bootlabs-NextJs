@@ -5,9 +5,9 @@ export default function CaseStudies() {
   return (
     <>
       <Header />
-      <div className="container" style={{ paddingTop: '7vmax' }} id="case-studies">
+      <div  className="container" style={{ paddingTop: '7vmax' }}  id="case-studies">
         <section className="row text-center">
-          <div className="container" style={{ paddingTop: '4vmax' }}>
+          <div className="container" style={{ paddingTop: '4vmax' , background: 'linear-gradient(0deg, #fff, #0124)' }}>
             <div className="row text-center">
               <div className="col-12">
                 <h2 className="blue-underline-heading">Case Studies</h2>
@@ -17,8 +17,8 @@ export default function CaseStudies() {
               <div class="col-lg-8" style={{ margin: '0 auto' }}>
                 <p>
                   We had been instrumental in running various workloads on cloud, designing robust pipelines,
-                  and managing humoungius migration activities. In the below case studies we talk about the
-                  same. Accelerate your cloud journey by leveraging our end-to-end Cloud managed services.
+                  and managing humoungous migration activities. In the below case studies we talk about the
+                  same. Accelerate your cloud journey by leveraging our end-to-end Cloud managed services, custom platforms and well architected frameworks and pipelines.
                 </p>
               </div>
             </div>
