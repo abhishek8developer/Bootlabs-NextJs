@@ -89,7 +89,7 @@ export default function operations() {
         </section>
       </div>
       <div className="container text-center pb-5d">
-        <h2 className="blue-underline-heading">Would like to Explore more</h2>
+        <h2 className="blue-underline-heading">Would you like to Explore more?</h2>
         <br></br>
         <a href="\contact" className="btn btn-primary" style={{ padding: '9px 40px' }}>Contact Us</a>
         <p></p>
