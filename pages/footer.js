@@ -1,4 +1,7 @@
+import { useUser } from '@auth0/nextjs-auth0';
+
 export default function Home() {
+  const { user, error, isLoading } = useUser() || {}
   return (
     <footer className="footer-area">
       <div className="footer-top">
@@ -35,6 +38,11 @@ export default function Home() {
                       Admin Login
                     </a>
                   </li>
+                  {user ? <li>
+                    <a href="/profile" className="quicklink">
+                      Profile
+                    </a>
+                  </li> : null}
                 </ul>
               </div>
             </div>
