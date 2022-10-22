@@ -30,6 +30,11 @@ export default function Home() {
                       Sailor
                     </a>
                   </li>
+                  <li>
+                    <a href="/api/auth/login" className="quicklink">
+                      Admin Login
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
