@@ -8,17 +8,25 @@
     Any tagname or element with id="career" and child tagname with class="bg-name" 
     present on the same tagname */
 #career .bg-image {
-    background: url("/images/bg/pricing_plan.jpg") no-repeat center center;
-    color: white;
+    background: url("/images/JoinUs.png") no-repeat center center;
+    background-size: cover;
+    color: #020b8a;
     padding: 30vh 0;
-    text-align: center;
+}
+
+#career .main-heading {
+    color: #020b8a;
 }
 
 #career .bg-image p {
     width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
+    color: #020b8a;
+}
+
+@media screen and (max-width: 540px) {
+    #career .bg-image p {
+        width: 100%;
+    }
 }
 
 #career .blue-underline-heading {

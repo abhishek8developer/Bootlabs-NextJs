@@ -33,14 +33,20 @@ export default function Career() {
       <Header />
       <section class="how-it-work-area bg-grey" id="career">
         <div class="container-fluid">
-          <div class="row justify-content-center">
+          <div class="row ">
             <div className="col-lg-12 bg-image">
-              <h2 className="main-heading white"> Join Our Team </h2>
-              <p>
-                We're simplifying the cloud for developers. We need talented
-                people like you to help us support and expand our
-                high-performance cloud infrastructure.
-              </p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h2 className="main-heading"> Join Our Team </h2>
+                    <p>
+                      We are simplifying the cloud for developers. We need talented
+                      people like you to help us support and expand our
+                      high-performance cloud infrastructure.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="row">

@@ -48,7 +48,7 @@ export default function Home() {
           <div class="container text-center">
             <h2 className="white-underline-heading">Proud Partners</h2>
             <div class="row">
-            <div class="col-md-2 col-xs-0">
+              <div class="col-md-1 col-xs-0">
               </div>
               <div class="col-md-2 col-6">
                 <img src="images/brand-logos/aws.png" alt="AWS" />
@@ -57,9 +57,12 @@ export default function Home() {
                 <img src="images/Spot.png" alt="Spot.io" />
               </div>
               <div class="col-md-2 col-6">
-                <img src="images/Ingram.png" alt="Ingram" />
+                <img src="images/brand-logos/scalix-logo.svg" alt="Scalix" />
               </div>
               <div class="col-md-2 col-6">
+                <img src="images/Ingram.png" alt="Ingram" />
+              </div>
+              <div class="col-md-2 col-xs-12">
                 <GCPImage />
               </div>
             </div>

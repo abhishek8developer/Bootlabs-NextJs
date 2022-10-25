@@ -1793,7 +1793,7 @@ select:focus {
 }
 
 .solution-drop-content a:hover {
-  color: #fff !important;
+  color: #0000ff;
   background-color: #006fb0;
   text-decoration: none;
   /*rgb(175, 240, 236);*/

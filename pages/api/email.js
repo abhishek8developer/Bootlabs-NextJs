@@ -10,7 +10,7 @@ const send = require('gmail-send')({
     user: 'mayank@bootlabstech.com',
     pass: appPass,
     cc: 'mayank@bootlabstech.com',
-    to: 'hello@bootlabstech.com',
+    to: 'contactus@bootlabstech.com',
     subject: `Query for Bootslabtech at ${currentDateTime()}`,
 })
 
