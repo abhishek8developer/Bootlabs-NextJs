@@ -8,7 +8,7 @@ section#home.header-area {
 }
 
 section#home.header-area.header-bg {
-  min-height: 70vh;
+  min-height: calc(100vh - 80px);
   padding: 25vh 0 0 0;
 }
 
