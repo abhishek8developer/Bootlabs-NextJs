@@ -15,6 +15,7 @@ export default function Header() {
       <Head>
         <link rel="icon" href="/cloud1.png" />
         <link rel="stylesheet" href="/style.css" />
+        <title>Bootlabs</title>
         <script src="https://apis.google.com/js/api.js"></script>
         <script src="/js/jquery.js"></script>
         <script src="/js/popper.min.js"></script>
